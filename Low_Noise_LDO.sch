@@ -1018,7 +1018,7 @@ U 1 1 60F4C377
 P 2850 6350
 F 0 "IC8" H 3500 6615 50  0000 C CNN
 F 1 "ADP7118AUJZ-5.0-R7" H 3500 6524 50  0000 C CNN
-F 2 "SOT95P280X100-5N" H 4000 6450 50  0001 L CNN
+F 2 "SamacSys_Parts:SOT95P280X100-5N" H 4000 6450 50  0001 L CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adp7118.pdf" H 4000 6350 50  0001 L CNN
 F 4 "LDO Voltage Regulators 20V 200mA LDO 5.0Vo" H 4000 6250 50  0001 L CNN "Description"
 F 5 "1" H 4000 6150 50  0001 L CNN "Height"

@@ -263,37 +263,29 @@ CurrentSense
 $Comp
 L Amplifier_Operational:ADA4075-2 U3
 U 1 1 60D7CC5C
-P 1850 5100
-F 0 "U3" H 1850 5467 50  0000 C CNN
-F 1 "ADA4075-2" H 1850 5376 50  0000 C CNN
-F 2 "" H 1850 5100 50  0001 C CNN
-F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 1850 5100 50  0001 C CNN
-	1    1850 5100
+P 1650 5000
+F 0 "U3" H 1650 5367 50  0000 C CNN
+F 1 "ADA4075-2" H 1650 5276 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1650 5000 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 1650 5000 50  0001 C CNN
+	1    1650 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1250 5000 0    50   Input ~ 0
+Text GLabel 650  4750 1    50   Input ~ 0
 CurrentSense
 Wire Wire Line
-	1250 5000 1550 5000
+	1350 5100 1250 5100
 Wire Wire Line
-	1550 5200 1450 5200
-Wire Wire Line
-	1450 5200 1450 5400
-Wire Wire Line
-	1450 5400 2200 5400
-Wire Wire Line
-	2200 5400 2200 5100
-Wire Wire Line
-	2200 5100 2150 5100
+	2000 5000 1950 5000
 $Comp
 L Amplifier_Operational:ADA4075-2 U3
 U 2 1 60D91A0D
-P 3000 5050
-F 0 "U3" H 3000 5417 50  0000 C CNN
-F 1 "ADA4075-2" H 3000 5326 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3000 5050 50  0001 C CNN
-F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 3000 5050 50  0001 C CNN
-	2    3000 5050
+P 3150 4900
+F 0 "U3" H 3150 5267 50  0000 C CNN
+F 1 "ADA4075-2" H 3150 5176 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3150 4900 50  0001 C CNN
+F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 3150 4900 50  0001 C CNN
+	2    3150 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -381,27 +373,25 @@ Wire Wire Line
 	5050 3100 4750 3100
 Wire Wire Line
 	5050 2600 5050 3100
-Text GLabel 2600 4950 0    50   Input ~ 0
+Text GLabel 2400 4600 1    50   Input ~ 0
 Error
 Wire Wire Line
-	2600 4950 2700 4950
+	3450 4900 3550 4900
 Wire Wire Line
-	3300 5050 3400 5050
+	3550 5250 2650 5250
 Wire Wire Line
-	3400 5400 2500 5400
+	2650 5250 2650 4950
 Wire Wire Line
-	2500 5400 2500 5100
+	2650 4950 2850 4950
 Wire Wire Line
-	2500 5100 2700 5100
-Wire Wire Line
-	2700 5100 2700 5150
+	2850 4950 2850 5000
 $Comp
 L Amplifier_Operational:ADA4075-2 U3
 U 3 1 60E0037C
 P 4050 5300
 F 0 "U3" H 4008 5346 50  0000 L CNN
 F 1 "ADA4075-2" H 4008 5255 50  0000 L CNN
-F 2 "" H 4050 5300 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4050 5300 50  0001 C CNN
 F 3 "https://www.analog.com/static/imported-files/data_sheets/ADA4075-2.pdf" H 4050 5300 50  0001 C CNN
 	3    4050 5300
 	1    0    0    -1  
@@ -484,23 +474,20 @@ Wire Wire Line
 $Comp
 L power:GNDA #PWR0117
 U 1 1 60E9B844
-P 2000 5950
-F 0 "#PWR0117" H 2000 5700 50  0001 C CNN
-F 1 "GNDA" V 2005 5823 50  0000 R CNN
-F 2 "" H 2000 5950 50  0001 C CNN
-F 3 "" H 2000 5950 50  0001 C CNN
-	1    2000 5950
-	1    0    0    -1  
+P 2300 5700
+F 0 "#PWR0117" H 2300 5450 50  0001 C CNN
+F 1 "GNDA" V 2305 5573 50  0000 R CNN
+F 2 "" H 2300 5700 50  0001 C CNN
+F 3 "" H 2300 5700 50  0001 C CNN
+	1    2300 5700
+	-1   0    0    -1  
 $EndComp
-Connection ~ 2200 5400
-Wire Wire Line
-	2200 5400 2200 5700
 Wire Wire Line
 	4400 4950 4400 5300
 Connection ~ 4400 5300
 Wire Wire Line
 	4400 5300 4400 5650
-Text Notes 1650 4450 0    50   ~ 0
+Text Notes 1250 4300 0    50   ~ 0
 Consider OPA2189 or ADA4077\n
 Text Notes 3050 3700 0    50   ~ 0
 LT6370 AD8421 are possible alternatives\n
@@ -537,21 +524,21 @@ Wire Wire Line
 $Comp
 L Connector:Conn_Coaxial J7
 U 1 1 60B62DC3
-P 2000 5700
-F 0 "J7" H 1928 5938 50  0000 C CNN
-F 1 "Conn_Coaxial" H 1928 5847 50  0000 C CNN
-F 2 "SamacSys_Parts:Coaxial_IPX_TE_23370191-1-2" H 2000 5700 50  0001 C CNN
-F 3 " ~" H 2000 5700 50  0001 C CNN
-	1    2000 5700
-	-1   0    0    -1  
+P 2300 5450
+F 0 "J7" H 2228 5688 50  0000 C CNN
+F 1 "Conn_Coaxial" H 2228 5597 50  0000 C CNN
+F 2 "SamacSys_Parts:Coaxial_IPX_TE_23370191-1-2" H 2300 5450 50  0001 C CNN
+F 3 " ~" H 2300 5450 50  0001 C CNN
+	1    2300 5450
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 5900 2000 5950
+	2300 5650 2300 5700
 Wire Wire Line
-	3400 5400 3400 5650
+	3550 5250 3550 5500
 Wire Wire Line
-	3400 5050 3400 5400
-Connection ~ 3400 5400
+	3550 4900 3550 5250
+Connection ~ 3550 5250
 Wire Wire Line
 	1950 2850 2150 2850
 $Comp
@@ -705,7 +692,7 @@ U 1 1 60CD4A89
 P 5550 3550
 F 0 "IC4" H 6050 3815 50  0000 C CNN
 F 1 "TMUX6219DGKR" H 6050 3724 50  0000 C CNN
-F 2 "SOP65P490X110-8N" H 6400 3650 50  0001 L CNN
+F 2 "SamacSys_Parts:SOP65P490X110-8N" H 6400 3650 50  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tmux6219.pdf?ts=1615989354363&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX6219" H 6400 3550 50  0001 L CNN
 F 4 "Analog Switch/Analog Multiplexer Single 2:1 8-Pin VSSOP T/R" H 6400 3450 50  0001 L CNN "Description"
 F 5 "1.1" H 6400 3350 50  0001 L CNN "Height"
@@ -932,7 +919,7 @@ U 1 1 60DE6BA8
 P 7250 4850
 F 0 "IC7" H 7800 5115 50  0000 C CNN
 F 1 "ADG1402BRMZ" H 7800 5024 50  0000 C CNN
-F 2 "SOP65P490X110-8N" H 8200 4950 50  0001 L CNN
+F 2 "SamacSys_Parts:SOP65P490X110-8N" H 8200 4950 50  0001 L CNN
 F 3 "" H 8200 4850 50  0001 L CNN
 F 4 "Analog Devices ADG1402BRMZ, Analogue Switch SPST NO, 12 V, 8-Pin MSOP" H 8200 4750 50  0001 L CNN "Description"
 F 5 "1.1" H 8200 4650 50  0001 L CNN "Height"
@@ -1060,7 +1047,7 @@ U 1 1 60EA239E
 P 2450 6600
 F 0 "IC5" H 3250 6865 50  0000 C CNN
 F 1 "TLP116A_TPL,E" H 3250 6774 50  0000 C CNN
-F 2 "SOT127P700X230-5N" H 3900 6700 50  0001 L CNN
+F 2 "SamacSys_Parts:SOT127P700X230-5N" H 3900 6700 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TLP116A.pdf" H 3900 6600 50  0001 L CNN
 F 4 "High Speed Optocouplers Pwr Suply 6V100degC Oper 5.5V 3750Vrms" H 3900 6500 50  0001 L CNN "Description"
 F 5 "2.3" H 3900 6400 50  0001 L CNN "Height"
@@ -1081,7 +1068,7 @@ U 1 1 60EE2C46
 P 2450 7300
 F 0 "IC6" H 3250 7565 50  0000 C CNN
 F 1 "TLP116A_TPL,E" H 3250 7474 50  0000 C CNN
-F 2 "SOT127P700X230-5N" H 3900 7400 50  0001 L CNN
+F 2 "SamacSys_Parts:SOT127P700X230-5N" H 3900 7400 50  0001 L CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TLP116A.pdf" H 3900 7300 50  0001 L CNN
 F 4 "High Speed Optocouplers Pwr Suply 6V100degC Oper 5.5V 3750Vrms" H 3900 7200 50  0001 L CNN "Description"
 F 5 "2.3" H 3900 7100 50  0001 L CNN "Height"
@@ -1322,27 +1309,27 @@ Wire Wire Line
 Wire Wire Line
 	7150 4450 7850 4450
 Wire Wire Line
-	3200 5850 3200 5900
+	3350 5700 3350 5750
 $Comp
 L Connector:Conn_Coaxial J9
 U 1 1 60B765BB
-P 3200 5650
-F 0 "J9" H 3128 5888 50  0000 C CNN
-F 1 "Conn_Coaxial" H 3128 5797 50  0000 C CNN
-F 2 "SamacSys_Parts:Coaxial_IPX_TE_23370191-1-2" H 3200 5650 50  0001 C CNN
-F 3 " ~" H 3200 5650 50  0001 C CNN
-	1    3200 5650
+P 3350 5500
+F 0 "J9" H 3278 5738 50  0000 C CNN
+F 1 "Conn_Coaxial" H 3278 5647 50  0000 C CNN
+F 2 "SamacSys_Parts:Coaxial_IPX_TE_23370191-1-2" H 3350 5500 50  0001 C CNN
+F 3 " ~" H 3350 5500 50  0001 C CNN
+	1    3350 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR016
 U 1 1 60B765B4
-P 3200 5900
-F 0 "#PWR016" H 3200 5650 50  0001 C CNN
-F 1 "GNDA" V 3205 5773 50  0000 R CNN
-F 2 "" H 3200 5900 50  0001 C CNN
-F 3 "" H 3200 5900 50  0001 C CNN
-	1    3200 5900
+P 3350 5750
+F 0 "#PWR016" H 3350 5500 50  0001 C CNN
+F 1 "GNDA" V 3355 5623 50  0000 R CNN
+F 2 "" H 3350 5750 50  0001 C CNN
+F 3 "" H 3350 5750 50  0001 C CNN
+	1    3350 5750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1374,4 +1361,98 @@ F 3 "" H 8950 3450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8950 3450 8950 3350
+$Comp
+L Device:R R30
+U 1 1 61371F55
+P 950 5350
+F 0 "R30" V 743 5350 50  0000 C CNN
+F 1 "500" V 834 5350 50  0000 C CNN
+F 2 "SamacSys_Parts:R_1206_0805_dual" V 880 5350 50  0001 C CNN
+F 3 "~" H 950 5350 50  0001 C CNN
+	1    950  5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R31
+U 1 1 6138E83D
+P 1550 5450
+F 0 "R31" V 1343 5450 50  0000 C CNN
+F 1 "500" V 1434 5450 50  0000 C CNN
+F 2 "SamacSys_Parts:R_1206_0805_dual" V 1480 5450 50  0001 C CNN
+F 3 "~" H 1550 5450 50  0001 C CNN
+	1    1550 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 5100 1250 5350
+Wire Wire Line
+	1250 5450 1400 5450
+Wire Wire Line
+	1100 5350 1250 5350
+Connection ~ 1250 5350
+Wire Wire Line
+	1250 5350 1250 5450
+Wire Wire Line
+	800  5350 650  5350
+Wire Wire Line
+	650  5350 650  5450
+$Comp
+L power:GNDA #PWR0131
+U 1 1 613E22B5
+P 650 5450
+F 0 "#PWR0131" H 650 5200 50  0001 C CNN
+F 1 "GNDA" V 655 5323 50  0000 R CNN
+F 2 "" H 650 5450 50  0001 C CNN
+F 3 "" H 650 5450 50  0001 C CNN
+	1    650  5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5000 2000 5100
+Wire Wire Line
+	2000 5450 1700 5450
+Connection ~ 2000 5450
+Wire Wire Line
+	2100 5450 2000 5450
+Text GLabel 2100 5050 1    50   Input ~ 0
+CurrentSense2X
+Wire Wire Line
+	2100 5050 2100 5100
+Wire Wire Line
+	2100 5100 2000 5100
+Connection ~ 2000 5100
+Wire Wire Line
+	2000 5100 2000 5450
+$Comp
+L Device:R R32
+U 1 1 614AD73E
+P 950 4900
+F 0 "R32" V 743 4900 50  0000 C CNN
+F 1 "50" V 834 4900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 880 4900 50  0001 C CNN
+F 3 "~" H 950 4900 50  0001 C CNN
+	1    950  4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1350 4900 1100 4900
+Wire Wire Line
+	800  4900 650  4900
+Wire Wire Line
+	650  4900 650  4750
+$Comp
+L Device:R R33
+U 1 1 614F0644
+P 2550 4800
+F 0 "R33" V 2343 4800 50  0000 C CNN
+F 1 "50" V 2434 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2480 4800 50  0001 C CNN
+F 3 "~" H 2550 4800 50  0001 C CNN
+	1    2550 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 4600 2400 4800
+Wire Wire Line
+	2700 4800 2850 4800
 $EndSCHEMATC
