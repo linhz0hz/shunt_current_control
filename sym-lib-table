@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name SamacSys_Parts)(type Legacy)(uri D:/EngSci/UltraCold/KiCad/footprints/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name lm2904)(type Legacy)(uri C:/Users/linhz/Documents/lm2904.lib)(options "")(descr ""))
+)

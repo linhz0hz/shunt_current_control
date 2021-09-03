@@ -1,0 +1,5 @@
+MODEL:driver_board_gerber_v2_Y6(replacefile) 
+SIZE:150*150MM T=0.12MM
+DATE:2021-06-08 22:00  
+NO:SO2106046218    3607667E (ÍâÃ³)   
+[ÎÞÂÁ¿ò¸ÖÆ¬]
