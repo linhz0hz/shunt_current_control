@@ -1,64 +1,442 @@
-14089049893319
-TerminalBlock
-TerminalBlock_Altech_AK300-2_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-2
-2
-TerminalBlock
-TerminalBlock_Altech_AK300-3_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-3
-3
-TerminalBlock
-TerminalBlock_Altech_AK300-4_P5.00mm
-Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
-Altech AK300 terminal block pitch 5.0mm
-0
-4
-4
-TerminalBlock
-TerminalBlock_Wuerth_691311400102_P7.62mm
-https://katalog.we-online.de/em/datasheet/6913114001xx.pdf
-Wuerth WR-TBL Series 3114 terminal block pitch 7.62mm
-0
-2
-2
-TerminalBlock
-TerminalBlock_bornier-2_P5.08mm
-simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2
-terminal block bornier2
-0
-2
-2
-TerminalBlock
-TerminalBlock_bornier-3_P5.08mm
-simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3
-terminal block bornier3
-0
-3
-3
-TerminalBlock
-TerminalBlock_bornier-4_P5.08mm
-simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4
-terminal block bornier4
-0
-4
-4
-TerminalBlock
-TerminalBlock_bornier-5_P5.08mm
-simple 5-pin terminal block, pitch 5.08mm, revamped version of bornier5
-terminal block bornier5
-0
-5
-5
-TerminalBlock
-TerminalBlock_bornier-6_P5.08mm
-simple 6pin terminal block, pitch 5.08mm, revamped version of bornier6
-terminal block bornier6
+101641523484086
+SamacSys_Parts
+100DP1T1B1M2QEH
+100DP1T1B1M2QEH
+Switch
 0
 6
 6
+SamacSys_Parts
+100SP3T1B2M2QE
+100SP3T1B2M2QE-2
+Switch
+0
+3
+3
+SamacSys_Parts
+3361P1253GLF
+3361P_2
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
+7461057
+7461057-2
+Connector
+0
+6
+6
+SamacSys_Parts
+23370191
+2337019-1-2
+Connector
+0
+3
+3
+SamacSys_Parts
+CAPC5750X280N
+CAP-FLM-5750x2.6mm
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CP_Radial_D10.0mm_P3.5_5
+CP, Radial series, Radial, pin pitch=5.00mm 7.50mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm 7.50mm  diameter 10mm Electrolytic Capacitor
+0
+4
+2
+SamacSys_Parts
+CP_Radial_D10.0mm_P3.5_5_7.5
+CP, Radial series, Radial, pin pitch=5.00mm 7.50mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm 7.50mm  diameter 10mm Electrolytic Capacitor
+0
+6
+2
+SamacSys_Parts
+C_1206_0805_dual
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+SamacSys_Parts
+C_1206_3216Metric_Pad1.42x1.75mm_Kelvin
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+4
+4
+SamacSys_Parts
+Choke_Schaffner_RN102_112_204
+Current-compensated Chokes, Scaffner, RN102-04, 14.0mmx14.0mm https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/
+chokes schaffner tht
+0
+12
+4
+SamacSys_Parts
+Coaxial_IPX_TE_23370191-1-2
+2337019-1-2
+Connector
+0
+3
+2
+SamacSys_Parts
+DIP794W53P254L1930H508Q14N
+N (R-PDIP-T)
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+DummyJumperStub
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 2 copper strips
+solder jumper open
+0
+2
+2
+SamacSys_Parts
+I6A4W020A033V003R
+I6A4W020A033V-003-R-3
+Power Supply
+0
+11
+11
+SamacSys_Parts
+I6A4W020A033V003R_solder
+I6A4W020A033V-003-R-3
+Power Supply
+0
+11
+11
+SamacSys_Parts
+INDPM139135X520N
+SRP1250-9R0M
+Inductor
+0
+2
+2
+SamacSys_Parts
+MAX30208CLBT
+MAX30208CLB+T-3
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+PCB_inductor
+
+
+0
+2
+2
+SamacSys_Parts
+PCB_inductor_4layer
+
+
+0
+6
+3
+SamacSys_Parts
+PCB_inductor_pair
+
+
+0
+6
+3
+SamacSys_Parts
+PCB_via_indcutor
+
+
+0
+19
+3
+SamacSys_Parts
+PQ2614BLA1R0K
+PQ2614BLA-1R0K-2
+Inductor
+0
+3
+3
+SamacSys_Parts
+QFN50P350X350X100-21N-D
+RGR (S-PVQFN-N20)
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
+QFN50P400X400X80-25N
+RTW0024A
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+QFP50P900X900X120-48N
+TQFP 48
+Integrated Circuit
+0
+48
+48
+SamacSys_Parts
+QFP50P1200X1200X160-64N
+LQFP (10x10x1.4)
+Integrated Circuit
+0
+64
+64
+SamacSys_Parts
+RAC2024SK
+RAC20-K
+Power Supply
+0
+5
+5
+SamacSys_Parts
+R_1206_0805_dual
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+SamacSys_Parts
+R_CSSH2728_handsolder
+Resistor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+resistor handsolder
+0
+2
+2
+SamacSys_Parts
+SHDR4W75P500_2X2_1100X1583X1630P
+HEADER 2X2
+Connector
+0
+4
+4
+SamacSys_Parts
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_DualUse
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+16
+2
+SamacSys_Parts
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_DualUse_B
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+16
+2
+SamacSys_Parts
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_DualUse_bk
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+16
+2
+SamacSys_Parts
+SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount_SMA_pin
+http://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf
+SMA
+0
+8
+2
+SamacSys_Parts
+SOIC127P599X175-8N
+LT1990CS8#PBF
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOIC127P600X175-8N
+D0008A
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOIC127P1040X265-21N
+DWP (R-PDSO-G20)_1
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
+SON50P250X250X100-9N-D
+STS35-DIS-1
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P300X200X100-9N-D
+(MC)8-Lead(DFN)
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON65P200X200X65-7N-D
+ADP7118ACPZN5
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SON65P300X300X80-9N
+MAX30205MTA+-1
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON100P300X300X80-7N-D
+3x3 6-Pin DFN
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SOP50P310X90-8N
+US8 (MO-187)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP50P490X110-10N
+VSSOP
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+SOP50P490X110-11N
+10-Lead (3mm × 3mm) Plastic MSOP
+Integrated Circuit
+0
+11
+11
+SamacSys_Parts
+SOP50P640X120-30N
+DBT (R-PDSO-G30)
+Integrated Circuit
+0
+30
+30
+SamacSys_Parts
+SOP65P490X110-8N
+DGK  (S-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP65P490X110-9N
+MS8E(MSOP)
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SOP65P490X110-13N
+LT3090EMSE#PBF
+Integrated Circuit
+0
+13
+13
+SamacSys_Parts
+SOP65P640X120-16N
+TSSOP_PW_16
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+SOT65P218X110-6N
+X6SN+1_1
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SOT95P280X100-5N
+UJ-5 (TSOT)_1
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P280X100-6N
+TSOT-23
+Crystal or Oscillator
+0
+6
+6
+SamacSys_Parts
+SOT95P280X145-5N
+DBV (R-PDSO-G5)
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P280X145-6N
+DBV0006A SOT-23 - 1.45 mm max height
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SOT127P700X230-5N
+
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT127P700X230-6N
+
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SS24VR20045CH
+SS24V-R20045-CH-1
+Filter
+0
+4
+4
+SamacSys_Parts
+Si5332EDGM1
+Si5332E-D-GM1-5
+Integrated Circuit
+0
+33
+33
+SamacSys_Parts
+U.FL_Molex_MCRF_73412-0110_Vertical_pin
+Molex Microcoaxial RF Connectors (MCRF), mates Hirose U.FL, (http://www.molex.com/pdm_docs/sd/734120110_sd.pdf)
+mcrf hirose ufl u.fl microcoaxial
+0
+5
+2
+SamacSys_Parts
+Y14730R00500B0R
+Y14730R00500B0R
+Resistor
+0
+4
+2
