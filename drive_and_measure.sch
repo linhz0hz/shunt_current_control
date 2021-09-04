@@ -321,7 +321,7 @@ Wire Wire Line
 	4250 3800 4250 3700
 Wire Wire Line
 	4250 4000 3450 4000
-Text HLabel 2950 5000 0    50   Output ~ 0
+Text HLabel 3450 3600 0    50   Output ~ 0
 Coil_P
 Text HLabel 3450 4850 0    50   Output ~ 0
 Coil_N
@@ -445,111 +445,111 @@ Text GLabel 5750 1200 0    50   Input ~ 0
 $Comp
 L SamacSys_Parts:7461057 J?
 U 1 1 60BC1AA9
-P 1000 4700
+P 1250 4700
 AR Path="/60BC1AA9" Ref="J?"  Part="1" 
 AR Path="/6083C74F/60BC1AA9" Ref="J?"  Part="1" 
 AR Path="/60850F29/60BC1AA9" Ref="J?"  Part="1" 
 AR Path="/60B2AA8F/60BC1AA9" Ref="J3"  Part="1" 
-F 0 "J3" H 1400 4965 50  0000 C CNN
-F 1 "7461057" H 1400 4874 50  0000 C CNN
-F 2 "SamacSys_Parts:7461057" H 1650 4800 50  0001 L CNN
-F 3 "https://katalog.we-online.com/em/datasheet/7461057.pdf" H 1650 4700 50  0001 L CNN
-F 4 "PCB power element bush terminal, 6P, M3" H 1650 4600 50  0001 L CNN "Description"
-F 5 "6.2" H 1650 4500 50  0001 L CNN "Height"
-F 6 "710-7461057" H 1650 4400 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057/?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" H 1650 4300 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 1650 4200 50  0001 L CNN "Manufacturer_Name"
-F 9 "7461057" H 1650 4100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1000 4700
+F 0 "J3" H 1650 4965 50  0000 C CNN
+F 1 "7461057" H 1650 4874 50  0000 C CNN
+F 2 "SamacSys_Parts:7461057" H 1900 4800 50  0001 L CNN
+F 3 "https://katalog.we-online.com/em/datasheet/7461057.pdf" H 1900 4700 50  0001 L CNN
+F 4 "PCB power element bush terminal, 6P, M3" H 1900 4600 50  0001 L CNN "Description"
+F 5 "6.2" H 1900 4500 50  0001 L CNN "Height"
+F 6 "710-7461057" H 1900 4400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057/?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" H 1900 4300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 1900 4200 50  0001 L CNN "Manufacturer_Name"
+F 9 "7461057" H 1900 4100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1250 4700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 4700 1000 4800
-Connection ~ 1000 4800
+	1250 4700 1250 4800
+Connection ~ 1250 4800
 Wire Wire Line
-	1000 4800 1000 4900
+	1250 4800 1250 4900
 Wire Wire Line
-	1000 4900 1000 5100
+	1250 4900 1250 5100
 Wire Wire Line
-	1800 5100 1800 4900
-Connection ~ 1000 4900
-Connection ~ 1800 4800
+	2050 5100 2050 4900
+Connection ~ 1250 4900
+Connection ~ 2050 4800
 Wire Wire Line
-	1800 4800 1800 4700
-Connection ~ 1800 4900
+	2050 4800 2050 4700
+Connection ~ 2050 4900
 Wire Wire Line
-	1800 4900 1800 4850
+	2050 4900 2050 4850
 Wire Wire Line
-	1800 4250 1000 4250
+	2050 4250 1250 4250
 Wire Wire Line
-	1800 4050 1800 3950
-Connection ~ 1800 4050
+	2050 4050 2050 3950
+Connection ~ 2050 4050
 Wire Wire Line
-	1800 3950 1800 3850
-Connection ~ 1800 3950
-Connection ~ 1000 4050
+	2050 3950 2050 3850
+Connection ~ 2050 3950
+Connection ~ 1250 4050
 Wire Wire Line
-	1800 4250 1800 4150
+	2050 4250 2050 4150
 Wire Wire Line
-	1000 4050 1000 4250
+	1250 4050 1250 4250
 Wire Wire Line
-	1000 3950 1000 4050
-Connection ~ 1000 3950
+	1250 3950 1250 4050
+Connection ~ 1250 3950
 Wire Wire Line
-	1000 3850 1000 3950
+	1250 3850 1250 3950
 $Comp
 L SamacSys_Parts:7461057 J?
 U 1 1 60BC1AC0
-P 1000 3850
+P 1250 3850
 AR Path="/60BC1AC0" Ref="J?"  Part="1" 
 AR Path="/6083C74F/60BC1AC0" Ref="J?"  Part="1" 
 AR Path="/60850F29/60BC1AC0" Ref="J?"  Part="1" 
 AR Path="/60B2AA8F/60BC1AC0" Ref="J2"  Part="1" 
-F 0 "J2" H 1400 4115 50  0000 C CNN
-F 1 "7461057" H 1400 4024 50  0000 C CNN
-F 2 "SamacSys_Parts:7461057" H 1650 3950 50  0001 L CNN
-F 3 "https://katalog.we-online.com/em/datasheet/7461057.pdf" H 1650 3850 50  0001 L CNN
-F 4 "PCB power element bush terminal, 6P, M3" H 1650 3750 50  0001 L CNN "Description"
-F 5 "6.2" H 1650 3650 50  0001 L CNN "Height"
-F 6 "710-7461057" H 1650 3550 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057/?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" H 1650 3450 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Wurth Elektronik" H 1650 3350 50  0001 L CNN "Manufacturer_Name"
-F 9 "7461057" H 1650 3250 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1000 3850
+F 0 "J2" H 1650 4115 50  0000 C CNN
+F 1 "7461057" H 1650 4024 50  0000 C CNN
+F 2 "SamacSys_Parts:7461057" H 1900 3950 50  0001 L CNN
+F 3 "https://katalog.we-online.com/em/datasheet/7461057.pdf" H 1900 3850 50  0001 L CNN
+F 4 "PCB power element bush terminal, 6P, M3" H 1900 3750 50  0001 L CNN "Description"
+F 5 "6.2" H 1900 3650 50  0001 L CNN "Height"
+F 6 "710-7461057" H 1900 3550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057/?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" H 1900 3450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Wurth Elektronik" H 1900 3350 50  0001 L CNN "Manufacturer_Name"
+F 9 "7461057" H 1900 3250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1250 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5VP #PWR07
 U 1 1 60BD463B
-P 1000 3600
-F 0 "#PWR07" H 1000 3450 50  0001 C CNN
-F 1 "+5VP" H 1015 3773 50  0000 C CNN
-F 2 "" H 1000 3600 50  0001 C CNN
-F 3 "" H 1000 3600 50  0001 C CNN
-	1    1000 3600
+P 1250 3600
+F 0 "#PWR07" H 1250 3450 50  0001 C CNN
+F 1 "+5VP" H 1265 3773 50  0000 C CNN
+F 2 "" H 1250 3600 50  0001 C CNN
+F 3 "" H 1250 3600 50  0001 C CNN
+	1    1250 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 60BD7B4F
-P 1000 5500
+P 1250 5500
 AR Path="/60BD7B4F" Ref="#PWR?"  Part="1" 
 AR Path="/6083C74F/60BD7B4F" Ref="#PWR?"  Part="1" 
 AR Path="/60850F29/60BD7B4F" Ref="#PWR?"  Part="1" 
 AR Path="/60B2AA8F/60BD7B4F" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 1000 5300 50  0001 C CNN
-F 1 "GNDPWR" H 1004 5346 50  0000 C CNN
-F 2 "" H 1000 5450 50  0001 C CNN
-F 3 "" H 1000 5450 50  0001 C CNN
-	1    1000 5500
+F 0 "#PWR08" H 1250 5300 50  0001 C CNN
+F 1 "GNDPWR" H 1254 5346 50  0000 C CNN
+F 2 "" H 1250 5450 50  0001 C CNN
+F 3 "" H 1250 5450 50  0001 C CNN
+	1    1250 5500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 5100 1000 5500
+	1250 5100 1250 5500
 Wire Wire Line
-	1000 3850 1000 3600
-Connection ~ 1000 3850
-Connection ~ 1000 5100
+	1250 3850 1250 3600
+Connection ~ 1250 3850
+Connection ~ 1250 5100
 $Comp
 L power:GNDPWR #PWR?
 U 1 1 60BEA3FA
@@ -786,51 +786,33 @@ Wire Wire Line
 $Comp
 L Device:CP C41
 U 1 1 611F571F
-P 800 4450
-F 0 "C41" H 918 4496 50  0000 L CNN
-F 1 "680uF" H 918 4405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 838 4300 50  0001 C CNN
-F 3 "~" H 800 4450 50  0001 C CNN
-	1    800  4450
+P 1050 4450
+F 0 "C41" H 1168 4496 50  0000 L CNN
+F 1 "680uF" H 1168 4405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 1088 4300 50  0001 C CNN
+F 3 "~" H 1050 4450 50  0001 C CNN
+	1    1050 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1000 4250 800  4250
+	1250 4250 1050 4250
 Wire Wire Line
-	800  4250 800  4300
-Connection ~ 1000 4250
+	1050 4250 1050 4300
+Connection ~ 1250 4250
 Wire Wire Line
-	800  4600 800  5100
+	1050 4600 1050 5100
 Wire Wire Line
-	800  5100 1000 5100
+	1050 5100 1250 5100
 $Comp
 L Device:C C?
 U 1 1 6120BCD8
-P 1950 4450
+P 2200 4450
 AR Path="/6085C373/6120BCD8" Ref="C?"  Part="1" 
 AR Path="/6083C74F/6120BCD8" Ref="C?"  Part="1" 
 AR Path="/60B2AA8F/6120BCD8" Ref="C42"  Part="1" 
-F 0 "C42" V 1850 4300 50  0000 C CNN
-F 1 "1u" V 1850 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1988 4300 50  0001 C CNN
-F 3 "~" H 1950 4450 50  0001 C CNN
-	1    1950 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1950 4600 1950 4750
-Wire Wire Line
-	1000 5100 1800 5100
-$Comp
-L Device:C C?
-U 1 1 61212184
-P 2200 4450
-AR Path="/6085C373/61212184" Ref="C?"  Part="1" 
-AR Path="/6083C74F/61212184" Ref="C?"  Part="1" 
-AR Path="/60B2AA8F/61212184" Ref="C43"  Part="1" 
-F 0 "C43" V 2100 4300 50  0000 C CNN
-F 1 "0.1u" V 2100 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2238 4300 50  0001 C CNN
+F 0 "C42" V 2100 4300 50  0000 C CNN
+F 1 "1u" V 2100 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2238 4300 50  0001 C CNN
 F 3 "~" H 2200 4450 50  0001 C CNN
 	1    2200 4450
 	-1   0    0    1   
@@ -838,25 +820,43 @@ $EndComp
 Wire Wire Line
 	2200 4600 2200 4750
 Wire Wire Line
-	2200 4750 1950 4750
+	1250 5100 2050 5100
+$Comp
+L Device:C C?
+U 1 1 61212184
+P 2450 4450
+AR Path="/6085C373/61212184" Ref="C?"  Part="1" 
+AR Path="/6083C74F/61212184" Ref="C?"  Part="1" 
+AR Path="/60B2AA8F/61212184" Ref="C43"  Part="1" 
+F 0 "C43" V 2350 4300 50  0000 C CNN
+F 1 "0.1u" V 2350 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2488 4300 50  0001 C CNN
+F 3 "~" H 2450 4450 50  0001 C CNN
+	1    2450 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 4600 2450 4750
+Wire Wire Line
+	2450 4750 2200 4750
+Wire Wire Line
+	2450 4150 2450 4300
+Connection ~ 2050 4150
+Wire Wire Line
+	2050 4150 2050 4050
 Wire Wire Line
 	2200 4150 2200 4300
-Connection ~ 1800 4150
+Connection ~ 2200 4150
 Wire Wire Line
-	1800 4150 1800 4050
+	2200 4150 2050 4150
 Wire Wire Line
-	1950 4150 1950 4300
-Connection ~ 1950 4150
+	2200 4750 2200 4850
 Wire Wire Line
-	1950 4150 1800 4150
+	2200 4850 2050 4850
+Connection ~ 2200 4750
+Connection ~ 2050 4850
 Wire Wire Line
-	1950 4750 1950 4850
-Wire Wire Line
-	1950 4850 1800 4850
-Connection ~ 1950 4750
-Connection ~ 1800 4850
-Wire Wire Line
-	1800 4850 1800 4800
+	2050 4850 2050 4800
 $Comp
 L Device:D_TVS D1
 U 1 1 60C24978
@@ -879,55 +879,55 @@ Wire Wire Line
 	4450 3800 4400 3800
 Connection ~ 4400 3800
 Wire Wire Line
-	2200 4150 1950 4150
+	2450 4150 2200 4150
 $Comp
 L Device:C C?
 U 1 1 60D64C8D
-P 2400 4450
+P 2650 4450
 AR Path="/6085C373/60D64C8D" Ref="C?"  Part="1" 
 AR Path="/6083C74F/60D64C8D" Ref="C?"  Part="1" 
 AR Path="/60B2AA8F/60D64C8D" Ref="C48"  Part="1" 
-F 0 "C48" V 2300 4300 50  0000 C CNN
-F 1 "1u" V 2300 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2438 4300 50  0001 C CNN
-F 3 "~" H 2400 4450 50  0001 C CNN
-	1    2400 4450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2400 4600 2400 4750
-$Comp
-L Device:C C?
-U 1 1 60D64C94
-P 2650 4450
-AR Path="/6085C373/60D64C94" Ref="C?"  Part="1" 
-AR Path="/6083C74F/60D64C94" Ref="C?"  Part="1" 
-AR Path="/60B2AA8F/60D64C94" Ref="C49"  Part="1" 
-F 0 "C49" V 2550 4300 50  0000 C CNN
-F 1 "0.1u" V 2550 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2688 4300 50  0001 C CNN
+F 0 "C48" V 2550 4300 50  0000 C CNN
+F 1 "1u" V 2550 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2688 4300 50  0001 C CNN
 F 3 "~" H 2650 4450 50  0001 C CNN
 	1    2650 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	2650 4600 2650 4750
+$Comp
+L Device:C C?
+U 1 1 60D64C94
+P 2900 4450
+AR Path="/6085C373/60D64C94" Ref="C?"  Part="1" 
+AR Path="/6083C74F/60D64C94" Ref="C?"  Part="1" 
+AR Path="/60B2AA8F/60D64C94" Ref="C49"  Part="1" 
+F 0 "C49" V 2800 4300 50  0000 C CNN
+F 1 "0.1u" V 2800 4600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2938 4300 50  0001 C CNN
+F 3 "~" H 2900 4450 50  0001 C CNN
+	1    2900 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2900 4600 2900 4750
+Wire Wire Line
+	2900 4150 2900 4300
 Wire Wire Line
 	2650 4150 2650 4300
+Connection ~ 2450 4750
+Connection ~ 2650 4750
 Wire Wire Line
-	2400 4150 2400 4300
-Connection ~ 2200 4750
-Connection ~ 2400 4750
+	2650 4750 2450 4750
 Wire Wire Line
-	2400 4750 2200 4750
+	2650 4750 2900 4750
 Wire Wire Line
-	2400 4750 2650 4750
+	2900 4150 2650 4150
+Connection ~ 2450 4150
+Connection ~ 2650 4150
 Wire Wire Line
-	2650 4150 2400 4150
-Connection ~ 2200 4150
-Connection ~ 2400 4150
-Wire Wire Line
-	2400 4150 2200 4150
+	2650 4150 2450 4150
 Wire Wire Line
 	6900 2350 6900 2400
 $Comp
@@ -1757,8 +1757,8 @@ U 1 1 616E06C6
 P 5300 2950
 AR Path="/6085C373/616E06C6" Ref="C?"  Part="1" 
 AR Path="/6083C74F/616E06C6" Ref="C?"  Part="1" 
-AR Path="/60B2AA8F/616E06C6" Ref="C?"  Part="1" 
-F 0 "C?" V 5200 2800 50  0000 C CNN
+AR Path="/60B2AA8F/616E06C6" Ref="C53"  Part="1" 
+F 0 "C53" V 5200 2800 50  0000 C CNN
 F 1 "0.1u" V 5200 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5338 2800 50  0001 C CNN
 F 3 "~" H 5300 2950 50  0001 C CNN
@@ -1776,8 +1776,8 @@ U 1 1 61702726
 P 7850 4100
 AR Path="/6085C373/61702726" Ref="C?"  Part="1" 
 AR Path="/6083C74F/61702726" Ref="C?"  Part="1" 
-AR Path="/60B2AA8F/61702726" Ref="C?"  Part="1" 
-F 0 "C?" V 7750 3950 50  0000 C CNN
+AR Path="/60B2AA8F/61702726" Ref="C54"  Part="1" 
+F 0 "C54" V 7750 3950 50  0000 C CNN
 F 1 "0.1u" V 7750 4250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7888 3950 50  0001 C CNN
 F 3 "~" H 7850 4100 50  0001 C CNN
@@ -1801,8 +1801,8 @@ P 5300 3150
 AR Path="/617375B8" Ref="#PWR?"  Part="1" 
 AR Path="/6083C74F/617375B8" Ref="#PWR?"  Part="1" 
 AR Path="/60850F29/617375B8" Ref="#PWR?"  Part="1" 
-AR Path="/60B2AA8F/617375B8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5300 2900 50  0001 C CNN
+AR Path="/60B2AA8F/617375B8" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 5300 2900 50  0001 C CNN
 F 1 "GNDA" H 5305 2977 50  0000 C CNN
 F 2 "" H 5300 3150 50  0001 C CNN
 F 3 "" H 5300 3150 50  0001 C CNN
@@ -1811,4 +1811,15 @@ F 3 "" H 5300 3150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5300 3100 5300 3150
+$Comp
+L Device:CP C?
+U 1 1 613DA228
+P 700 4450
+F 0 "C?" H 818 4496 50  0000 L CNN
+F 1 "680uF" H 818 4405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 738 4300 50  0001 C CNN
+F 3 "~" H 700 4450 50  0001 C CNN
+	1    700  4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
