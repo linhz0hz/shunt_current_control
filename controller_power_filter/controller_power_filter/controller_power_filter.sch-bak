@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:L_Core_Ferrite_Coupled L1
+U 1 1 614AA517
+P 4550 2850
+F 0 "L1" H 4550 3131 50  0000 C CNN
+F 1 "L_Core_Ferrite_Coupled" H 4550 3040 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm" H 4550 2850 50  0001 C CNN
+F 3 "~" H 4550 2850 50  0001 C CNN
+	1    4550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 614AE45E
+P 3550 2850
+F 0 "C3" H 3665 2896 50  0000 L CNN
+F 1 "C" H 3665 2805 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 3588 2700 50  0001 C CNN
+F 3 "~" H 3550 2850 50  0001 C CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 614B148A
+P 3150 2850
+F 0 "C1" H 3268 2896 50  0000 L CNN
+F 1 "CP" H 3268 2805 50  0000 L CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 3188 2700 50  0001 C CNN
+F 3 "~" H 3150 2850 50  0001 C CNN
+	1    3150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2700 3150 2550
+Wire Wire Line
+	3150 2550 3550 2550
+Wire Wire Line
+	4200 2550 4200 2750
+Wire Wire Line
+	3550 2700 3550 2550
+Connection ~ 3550 2550
+Wire Wire Line
+	3550 2550 3850 2550
+$Comp
+L Device:C C5
+U 1 1 614B22A4
+P 3850 2850
+F 0 "C5" H 3965 2896 50  0000 L CNN
+F 1 "C" H 3965 2805 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 3888 2700 50  0001 C CNN
+F 3 "~" H 3850 2850 50  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2700 3850 2550
+Connection ~ 3850 2550
+Wire Wire Line
+	3850 2550 4200 2550
+$Comp
+L Device:C C9
+U 1 1 614B6509
+P 6250 2850
+F 0 "C9" H 6365 2896 50  0000 L CNN
+F 1 "C" H 6365 2805 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 6288 2700 50  0001 C CNN
+F 3 "~" H 6250 2850 50  0001 C CNN
+	1    6250 2850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C11
+U 1 1 614B650F
+P 6650 2850
+F 0 "C11" H 6532 2896 50  0000 R CNN
+F 1 "CP" H 6532 2805 50  0000 R CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 6688 2700 50  0001 C CNN
+F 3 "~" H 6650 2850 50  0001 C CNN
+	1    6650 2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 2700 6650 2550
+Wire Wire Line
+	6650 2550 6250 2550
+Wire Wire Line
+	6250 3150 6250 3000
+Wire Wire Line
+	6650 3000 6650 3150
+Wire Wire Line
+	6650 3150 6250 3150
+Connection ~ 6250 3150
+Wire Wire Line
+	6250 2700 6250 2550
+Wire Wire Line
+	5300 2700 5300 2550
+Wire Wire Line
+	5300 2550 4950 2550
+Wire Wire Line
+	4950 2550 4950 2750
+Wire Wire Line
+	4950 2750 4750 2750
+Wire Wire Line
+	4350 2950 4200 2950
+Wire Wire Line
+	4200 2750 4350 2750
+Wire Wire Line
+	4750 2950 4950 2950
+$Comp
+L Device:CP C13
+U 1 1 614BA134
+P 7050 2850
+F 0 "C13" H 6932 2896 50  0000 R CNN
+F 1 "CP" H 6932 2805 50  0000 R CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 7088 2700 50  0001 C CNN
+F 3 "~" H 7050 2850 50  0001 C CNN
+	1    7050 2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2700 7050 2550
+Wire Wire Line
+	7050 3000 7050 3150
+Wire Wire Line
+	7050 3150 6650 3150
+Connection ~ 6650 3150
+Wire Wire Line
+	7050 2550 6650 2550
+Connection ~ 6650 2550
+$Comp
+L Device:R R1
+U 1 1 614BB2DA
+P 7450 2850
+F 0 "R1" H 7520 2896 50  0000 L CNN
+F 1 "R" H 7520 2805 50  0000 L CNN
+F 2 "SamacSys_Parts:R_1206_0805_dual" V 7380 2850 50  0001 C CNN
+F 3 "~" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3000 7450 3150
+Wire Wire Line
+	7450 3150 7050 3150
+Connection ~ 7050 3150
+Wire Wire Line
+	7050 2550 7450 2550
+Wire Wire Line
+	7450 2550 7450 2700
+Connection ~ 7050 2550
+$Comp
+L Device:L_Core_Ferrite_Coupled L2
+U 1 1 614CA422
+P 4550 3450
+F 0 "L2" H 4550 3731 50  0000 C CNN
+F 1 "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm" H 4550 3640 50  0000 C CNN
+F 2 "Inductor_THT:Choke_Schaffner_RN102-04-14.0x14.0mm" H 4550 3450 50  0001 C CNN
+F 3 "~" H 4550 3450 50  0001 C CNN
+	1    4550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 614CA428
+P 3550 3450
+F 0 "C4" H 3665 3496 50  0000 L CNN
+F 1 "C" H 3665 3405 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 3588 3300 50  0001 C CNN
+F 3 "~" H 3550 3450 50  0001 C CNN
+	1    3550 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 614CA42E
+P 3150 3450
+F 0 "C2" H 3268 3496 50  0000 L CNN
+F 1 "CP" H 3268 3405 50  0000 L CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 3188 3300 50  0001 C CNN
+F 3 "~" H 3150 3450 50  0001 C CNN
+	1    3150 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3550 4200 3750
+Wire Wire Line
+	4200 3750 3850 3750
+Wire Wire Line
+	3550 3750 3550 3600
+Wire Wire Line
+	3150 3600 3150 3750
+Wire Wire Line
+	3150 3750 3550 3750
+Connection ~ 3550 3750
+$Comp
+L Device:C C6
+U 1 1 614CA440
+P 3850 3450
+F 0 "C6" H 3965 3496 50  0000 L CNN
+F 1 "C" H 3965 3405 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 3888 3300 50  0001 C CNN
+F 3 "~" H 3850 3450 50  0001 C CNN
+	1    3850 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3600 3850 3750
+Connection ~ 3850 3750
+Wire Wire Line
+	3850 3750 3550 3750
+Wire Wire Line
+	4950 3750 5300 3750
+Wire Wire Line
+	5300 3600 5300 3750
+Wire Wire Line
+	4950 3350 4750 3350
+Wire Wire Line
+	4350 3550 4200 3550
+Wire Wire Line
+	4200 3350 4350 3350
+Wire Wire Line
+	4750 3550 4950 3550
+Wire Wire Line
+	4950 3550 4950 3750
+Wire Wire Line
+	3550 3000 3550 3150
+Wire Wire Line
+	3850 3000 3850 3150
+$Comp
+L Device:C C10
+U 1 1 614DADEF
+P 6250 3450
+F 0 "C10" H 6365 3496 50  0000 L CNN
+F 1 "C" H 6365 3405 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 6288 3300 50  0001 C CNN
+F 3 "~" H 6250 3450 50  0001 C CNN
+	1    6250 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:CP C12
+U 1 1 614DADF5
+P 6650 3450
+F 0 "C12" H 6532 3496 50  0000 R CNN
+F 1 "CP" H 6532 3405 50  0000 R CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 6688 3300 50  0001 C CNN
+F 3 "~" H 6650 3450 50  0001 C CNN
+	1    6650 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3300 6650 3150
+Wire Wire Line
+	6250 3750 6250 3600
+Wire Wire Line
+	6650 3600 6650 3750
+Wire Wire Line
+	6650 3750 6250 3750
+Wire Wire Line
+	6250 3300 6250 3150
+$Comp
+L Device:CP C14
+U 1 1 614DAE05
+P 7050 3450
+F 0 "C14" H 6932 3496 50  0000 R CNN
+F 1 "CP" H 6932 3405 50  0000 R CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 7088 3300 50  0001 C CNN
+F 3 "~" H 7050 3450 50  0001 C CNN
+	1    7050 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 3300 7050 3150
+Wire Wire Line
+	7050 3600 7050 3750
+Wire Wire Line
+	7050 3750 6650 3750
+Connection ~ 6650 3750
+$Comp
+L Device:R R2
+U 1 1 614DAE11
+P 7450 3450
+F 0 "R2" H 7520 3496 50  0000 L CNN
+F 1 "R" H 7520 3405 50  0000 L CNN
+F 2 "SamacSys_Parts:R_1206_0805_dual" V 7380 3450 50  0001 C CNN
+F 3 "~" H 7450 3450 50  0001 C CNN
+	1    7450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 3600 7450 3750
+Wire Wire Line
+	7450 3750 7050 3750
+Connection ~ 7050 3750
+Wire Wire Line
+	7450 3150 7450 3300
+Wire Wire Line
+	3150 3000 3150 3150
+Wire Wire Line
+	4200 2950 4200 3150
+Wire Wire Line
+	3850 3150 4200 3150
+Connection ~ 3850 3150
+Wire Wire Line
+	3850 3150 3850 3300
+Connection ~ 4200 3150
+Wire Wire Line
+	4200 3150 4200 3350
+Wire Wire Line
+	3850 3150 3550 3150
+Connection ~ 3550 3150
+Wire Wire Line
+	3550 3150 3550 3300
+Wire Wire Line
+	3150 3150 3550 3150
+Connection ~ 3150 3150
+Wire Wire Line
+	3150 3150 3150 3300
+Connection ~ 4950 3150
+Wire Wire Line
+	4950 2950 4950 3150
+Wire Wire Line
+	4950 3150 4950 3350
+Wire Wire Line
+	4950 3150 5300 3150
+Connection ~ 5300 3150
+Wire Wire Line
+	5300 3300 5300 3150
+$Comp
+L Device:C C8
+U 1 1 614CA44D
+P 5300 3450
+F 0 "C8" H 5415 3496 50  0000 L CNN
+F 1 "C" H 5415 3405 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 5338 3300 50  0001 C CNN
+F 3 "~" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3000 5300 3150
+$Comp
+L Device:C C7
+U 1 1 614B651F
+P 5300 2850
+F 0 "C7" H 5415 2896 50  0000 L CNN
+F 1 "C" H 5415 2805 50  0000 L CNN
+F 2 "SamacSys_Parts:C_1206_0805_dual" H 5338 2700 50  0001 C CNN
+F 3 "~" H 5300 2850 50  0001 C CNN
+	1    5300 2850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 3150 6250 3150
+$Comp
+L Device:L L3
+U 1 1 614F74EB
+P 5750 2550
+F 0 "L3" V 5940 2550 50  0000 C CNN
+F 1 "2124-V-RC" V 5849 2550 50  0000 C CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L21.6mm_W11.4mm_P7.62mm_Pulse_KM-3" H 5750 2550 50  0001 C CNN
+F 3 "~" H 5750 2550 50  0001 C CNN
+	1    5750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L L4
+U 1 1 614F85B5
+P 5750 3750
+F 0 "L4" V 5940 3750 50  0000 C CNN
+F 1 "2124-V-RC" V 5849 3750 50  0000 C CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L21.6mm_W11.4mm_P7.62mm_Pulse_KM-3" H 5750 3750 50  0001 C CNN
+F 3 "~" H 5750 3750 50  0001 C CNN
+	1    5750 3750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 3750 6250 3750
+Connection ~ 6250 3750
+Wire Wire Line
+	5600 3750 5300 3750
+Connection ~ 5300 3750
+Wire Wire Line
+	5600 2550 5300 2550
+Connection ~ 5300 2550
+Wire Wire Line
+	5900 2550 6250 2550
+Connection ~ 6250 2550
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 61516F38
+P 2600 3150
+F 0 "J1" H 2518 3467 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 2518 3376 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2600 3150 50  0001 C CNN
+F 3 "~" H 2600 3150 50  0001 C CNN
+	1    2600 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 3150 3150 3150
+Wire Wire Line
+	2800 3050 2900 3050
+Wire Wire Line
+	2900 3050 2900 2550
+Wire Wire Line
+	2900 2550 3150 2550
+Connection ~ 3150 2550
+Wire Wire Line
+	2800 3250 2900 3250
+Wire Wire Line
+	2900 3250 2900 3750
+Wire Wire Line
+	2900 3750 3150 3750
+Connection ~ 3150 3750
+$Comp
+L Connector:Screw_Terminal_01x03 J2
+U 1 1 6151EC1A
+P 8100 3150
+F 0 "J2" H 8018 3467 50  0000 C CNN
+F 1 "Screw_Terminal_01x03" H 8018 3376 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 8100 3150 50  0001 C CNN
+F 3 "~" H 8100 3150 50  0001 C CNN
+	1    8100 3150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7900 3150 7450 3150
+Connection ~ 7450 3150
+Wire Wire Line
+	7900 3250 7900 3750
+Wire Wire Line
+	7900 3750 7450 3750
+Connection ~ 7450 3750
+Wire Wire Line
+	7900 3050 7900 2550
+Wire Wire Line
+	7900 2550 7450 2550
+Connection ~ 7450 2550
+Text Label 3150 3150 0    50   ~ 0
+GND_P
+Text Label 5550 3150 0    50   ~ 0
+GND_A
+Text Label 6450 2550 0    50   ~ 0
++VA
+Text Label 6500 3750 0    50   ~ 0
+-VA
+Text Label 3350 2550 0    50   ~ 0
++VP
+Text Label 3400 3750 0    50   ~ 0
+-VP
+$EndSCHEMATC

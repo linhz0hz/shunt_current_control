@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:shunt_current_control_v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -789,7 +788,7 @@ U 1 1 611F571F
 P 1050 4450
 F 0 "C41" H 1168 4496 50  0000 L CNN
 F 1 "680uF" H 1168 4405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 1088 4300 50  0001 C CNN
+F 2 "SamacSys_Parts:CP_Radial_D10.0mm_P3.5_5" H 1088 4300 50  0001 C CNN
 F 3 "~" H 1050 4450 50  0001 C CNN
 	1    1050 4450
 	1    0    0    -1  
@@ -1812,14 +1811,24 @@ $EndComp
 Wire Wire Line
 	5300 3100 5300 3150
 $Comp
-L Device:CP C?
+L Device:CP C55
 U 1 1 613DA228
-P 700 4450
-F 0 "C?" H 818 4496 50  0000 L CNN
-F 1 "680uF" H 818 4405 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm" H 738 4300 50  0001 C CNN
-F 3 "~" H 700 4450 50  0001 C CNN
-	1    700  4450
+P 650 4650
+F 0 "C55" H 768 4696 50  0000 L CNN
+F 1 "2000uF" H 768 4605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 688 4500 50  0001 C CNN
+F 3 "~" H 650 4650 50  0001 C CNN
+	1    650  4650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	650  5100 1050 5100
+Connection ~ 1050 5100
+Wire Wire Line
+	650  4800 650  5100
+Wire Wire Line
+	650  4500 650  4250
+Wire Wire Line
+	650  4250 1050 4250
+Connection ~ 1050 4250
 $EndSCHEMATC
