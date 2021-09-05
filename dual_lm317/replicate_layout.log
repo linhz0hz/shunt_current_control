@@ -1,0 +1,24 @@
+09-05 09:26:26 replicate_layout.action_replicate_layout 313:Plugin executed on: 'win32'
+09-05 09:26:26 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
+09-05 09:26:26 replicate_layout.action_replicate_layout 315:KiCad build version: Unknown
+09-05 09:26:26 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+09-05 09:26:26 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+kicad (5.1.4)-1 d:\engsci\ultracold\kicad\shunt_current_control_v2\dual_lm317\dual_lm317.pro
+
+eeschema — pos_reg_section.sch [/pos_reg_section/] — d:\engsci\ultracold\kicad\shunt_current_control_v2\dual_lm317
+
+pcbnew — d:\engsci\ultracold\kicad\shunt_current_control_v2\dual_lm317\dual_lm317.kicad_pcb
+
+
+3d viewer
+
+09-05 09:26:26 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x33110c0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1601a40> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x45adbf0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x91de8a0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1b2f1ab0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1b539cd0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1b53a040> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1d379080> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1d67c5b0> >

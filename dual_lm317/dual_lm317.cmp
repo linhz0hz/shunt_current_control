@@ -1,0 +1,475 @@
+Cmp-Mod V01 Created by PcbNew   date = 05/09/2021 08:50:02
+
+BeginCmp
+TimeStamp = 6134BF08
+Path = /613527CE
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BEF8
+Path = /613427CF
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BEE8
+Path = /6137A0FF
+Reference = C9;
+ValeurCmp = 0.01u c0g;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BED8
+Path = /6134830E
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BEC6
+Path = /613B6D66
+Reference = C6;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BEB6
+Path = /61372AC4
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BEA6
+Path = /6133EA15
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BE96
+Path = /61368719
+Reference = C8;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BDFF
+Path = /6138B7AA
+Reference = J2;
+ValeurCmp = Conn_01x02_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BDEA
+Path = /613D3B1B
+Reference = U2;
+ValeurCmp = LT3080xST;
+IdModule  = Package_TO_SOT_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BDCB
+Path = /61345464
+Reference = U1;
+ValeurCmp = LM317_3PinPackage;
+IdModule  = Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BDA4
+Path = /613EB391
+Reference = U3;
+ValeurCmp = LT3080xST;
+IdModule  = Package_TO_SOT_SMD:TO-263-3_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BD82
+Path = /6133E160
+Reference = C4;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BD6B
+Path = /6133FD08
+Reference = D2;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BD56
+Path = /61387439
+Reference = J1;
+ValeurCmp = Conn_01x02_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BD2F
+Path = /6134A0DB
+Reference = C7;
+ValeurCmp = Electrolytic;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BD08
+Path = /613527DA
+Reference = C3;
+ValeurCmp = Electrolytic;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BCF1
+Path = /61343837
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134BCDF
+Path = /613527C4
+Reference = C2;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 613526D8
+Path = /61499370
+Reference = J6;
+ValeurCmp = Conn_01x03_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 613526C1
+Path = /6147495D
+Reference = J5;
+ValeurCmp = Conn_01x03_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134E379
+Path = /613F7DFA
+Reference = U6;
+ValeurCmp = LM337_TO263;
+IdModule  = Package_TO_SOT_SMD:TO-263-2;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134E355
+Path = /613F750F
+Reference = U5;
+ValeurCmp = LM337_SOT223;
+IdModule  = Package_TO_SOT_SMD:SOT-223-3_TabPin2;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134B304
+Path = /613C5E2B
+Reference = C20;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134B0CF
+Path = /613B6D66
+Reference = C6;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E5B8
+Path = /613427CF
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E5A7
+Path = /6133EA15
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61343181
+Path = /61372AC4
+Reference = C10;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61343170
+Path = /6137A0FF
+Reference = C9;
+ValeurCmp = 0.01u c0g;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61342686
+Path = /61368719
+Reference = C8;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E55B
+Path = /6134830E
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E4FC
+Path = /613527CE
+Reference = C1;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 613479D7
+Path = /6135031E
+Reference = C15;
+ValeurCmp = 0.01u c0g;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61347930
+Path = /61356FA2
+Reference = C11;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134707B
+Path = /613502EE
+Reference = R4;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134706A
+Path = /613502E2
+Reference = R3;
+ValeurCmp = R;
+IdModule  = Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61346E6B
+Path = /61350314
+Reference = C17;
+ValeurCmp = 1u;
+IdModule  = Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134632B
+Path = /61350302
+Reference = C16;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61345986
+Path = /613472F7
+Reference = U4;
+ValeurCmp = LM337_TO220;
+IdModule  = Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown;
+EndCmp
+
+BeginCmp
+TimeStamp = 61345870
+Path = /6135032C
+Reference = J4;
+ValeurCmp = Conn_01x02_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134585A
+Path = /61356FC7
+Reference = J3;
+ValeurCmp = Conn_01x02_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 613457F0
+Path = /613502E8
+Reference = D4;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 613457D8
+Path = /61393046
+Reference = D3;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 61345764
+Path = /61350309
+Reference = C18;
+ValeurCmp = Electrolytic;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134573C
+Path = /613502DC
+Reference = C14;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61345729
+Path = /61356FAB
+Reference = C13;
+ValeurCmp = Electrolytic;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 61345701
+Path = /61356F99
+Reference = C12;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 61345640
+Path = /61356FBB
+Reference = C19;
+ValeurCmp = 0.1u;
+IdModule  = Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 613445B6
+Path = /61345464
+Reference = U1;
+ValeurCmp = LM317_3PinPackage;
+IdModule  = Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown;
+EndCmp
+
+BeginCmp
+TimeStamp = 61346ACA
+Path = /613EB391
+Reference = U3;
+ValeurCmp = LT3080xST;
+IdModule  = Package_TO_SOT_SMD:TO-263-3_TabPin4;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134631D
+Path = /613D3B1B
+Reference = U2;
+ValeurCmp = LT3080xST;
+IdModule  = Package_TO_SOT_SMD:SOT-223;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134473F
+Path = /6138B7AA
+Reference = J2;
+ValeurCmp = Conn_01x02_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6134472A
+Path = /61387439
+Reference = J1;
+ValeurCmp = Conn_01x02_Male;
+IdModule  = Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133EB40
+Path = /6133FD08
+Reference = D2;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133EB28
+Path = /61343837
+Reference = D1;
+ValeurCmp = D;
+IdModule  = Diode_SMD:D_SOD-323;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E596
+Path = /6134A0DB
+Reference = C7;
+ValeurCmp = Electrolytic;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E54A
+Path = /6133E160
+Reference = C4;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E537
+Path = /613527DA
+Reference = C3;
+ValeurCmp = Electrolytic;
+IdModule  = Capacitor_SMD:CP_Elec_8x10.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 6133E50F
+Path = /613527C4
+Reference = C2;
+ValeurCmp = Tant 10uF;
+IdModule  = Capacitor_Tantalum_SMD:CP_EIA-6032-15_Kemet-U_Pad2.25x2.35mm_HandSolder;
+EndCmp
+
+EndListe
