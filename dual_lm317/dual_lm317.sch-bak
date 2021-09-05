@@ -343,32 +343,61 @@ Wire Wire Line
 Wire Wire Line
 	6250 4350 6950 4350
 $Comp
-L Regulator_Linear:LT3080xST U?
+L Regulator_Linear:LT3080xST U2
 U 1 1 613D3B1B
-P 6700 2900
-F 0 "U?" H 6700 3167 50  0000 C CNN
-F 1 "LT3080xST" H 6700 3076 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 6700 2600 50  0001 C CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 4980 3670 50  0001 C CNN
-	1    6700 2900
+P 6500 2900
+F 0 "U2" H 6500 3167 50  0000 C CNN
+F 1 "LT3080xST" H 6500 3076 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 6500 2600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 4780 3670 50  0001 C CNN
+	1    6500 2900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 2900 7200 2900
+	6900 2900 7000 2900
 Wire Wire Line
-	7200 2900 7200 3000
+	7000 2900 7000 3000
 Wire Wire Line
-	7200 3000 7100 3000
-Text Label 7200 2900 0    50   ~ 0
+	7000 3000 6900 3000
+Text Label 7000 2900 0    50   ~ 0
 VoutA
-Text Label 6000 2850 0    50   ~ 0
+Text Label 5800 2850 0    50   ~ 0
 VinA
 Wire Wire Line
-	6300 2900 6000 2900
+	6100 2900 5800 2900
 Wire Wire Line
-	6000 2900 6000 2850
-Text Label 5900 3000 0    50   ~ 0
+	5800 2900 5800 2850
+Text Label 5700 3000 0    50   ~ 0
 VadjA
 Wire Wire Line
-	5900 3000 6300 3000
+	5700 3000 6100 3000
+Wire Wire Line
+	8500 2900 8600 2900
+Wire Wire Line
+	8600 2900 8600 3000
+Wire Wire Line
+	8600 3000 8500 3000
+Text Label 8600 2900 0    50   ~ 0
+VoutA
+Text Label 7400 2850 0    50   ~ 0
+VinA
+Wire Wire Line
+	7700 2900 7400 2900
+Wire Wire Line
+	7400 2900 7400 2850
+Text Label 7300 3000 0    50   ~ 0
+VadjA
+Wire Wire Line
+	7300 3000 7700 3000
+$Comp
+L Regulator_Linear:LT3080xST U3
+U 1 1 613EB391
+P 8100 2900
+F 0 "U3" H 8100 3167 50  0000 C CNN
+F 1 "LT3080xST" H 8100 3076 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-3_TabPin4" H 8100 2600 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3080fc.pdf" H 6380 3670 50  0001 C CNN
+	1    8100 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
