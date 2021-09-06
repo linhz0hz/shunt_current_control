@@ -1,0 +1,46 @@
+09-05 23:29:05 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'win32'
+09-05 23:29:05 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
+09-05 23:29:05 save_restore_layout.action_save_restore_layout 162:KiCad build version: Unknown
+09-05 23:29:05 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+09-05 23:29:06 save_restore_layout.action_save_restore_layout 200:Save layout chosen
+09-05 23:29:06 save_restore_layout.save_restore_layout 845:Saving the current board temporary in order to leave current layout intact
+09-05 23:29:07 save_restore_layout.save_restore_layout 855:Getting schematics info
+09-05 23:29:07 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+09-05 23:29:07 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+{u'613586DE': [u'sheet613586DC', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch'], u'61359581': [u'power_module_A', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch'], u'613A5306': [u'power_module_D', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module_small.sch'], u'6135EEFA': [u'sheet6135EEF8', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module_small.sch'], u'61358712': [u'sheet61358710', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch']}
+09-05 23:29:07 save_restore_layout.save_restore_layout 857:Getting layout info
+09-05 23:29:07 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+09-05 23:29:07 save_restore_layout.save_restore_layout 859:Updating layout info with schematics info
+09-05 23:29:08 root 53:highlighting module: u'PS3'
+09-05 23:29:08 root 53:highlighting module: u'C30'
+09-05 23:29:08 root 53:highlighting module: u'L9'
+09-05 23:29:08 root 53:highlighting module: u'L8'
+09-05 23:29:08 root 53:highlighting module: u'L7'
+09-05 23:29:08 root 53:highlighting module: u'J9'
+09-05 23:29:08 root 53:highlighting module: u'J8'
+09-05 23:29:08 root 53:highlighting module: u'J7'
+09-05 23:29:08 root 53:highlighting module: u'C33'
+09-05 23:29:08 root 53:highlighting module: u'C32'
+09-05 23:29:08 root 53:highlighting module: u'C31'
+09-05 23:29:08 root 53:highlighting module: u'C29'
+09-05 23:29:08 root 53:highlighting module: u'C28'
+09-05 23:29:08 root 53:highlighting module: u'C27'
+09-05 23:29:08 root 53:highlighting module: u'C26'
+09-05 23:29:09 root 53:highlighting module: u'C25'
+09-05 23:29:09 root 53:highlighting module: u'C24'
+09-05 23:29:09 root 53:highlighting module: u'C23'
+09-05 23:29:14 save_restore_layout.save_restore_layout 941:Saving layout for level: [u'power_module_D']
+09-05 23:29:14 save_restore_layout.save_restore_layout 942:Calculating hash of the layout schematics
+09-05 23:29:14 save_restore_layout.save_restore_layout 946:Saving hash for files: [u'isolated_dcdc_module_small.sch']
+09-05 23:29:14 root 956:Source modules are: [u'PS3', u'C30', u'L9', u'L8', u'L7', u'J9', u'J8', u'J7', u'C33', u'C32', u'C31', u'C29', u'C28', u'C27', u'C26', u'C25', u'C24', u'C23']
+09-05 23:29:14 save_restore_layout.save_restore_layout 966:Removing everything else from the layout
+09-05 23:29:14 save_restore_layout.save_restore_layout 880:Removing text
+09-05 23:29:14 save_restore_layout.save_restore_layout 863:Removing drawing
+09-05 23:29:14 save_restore_layout.save_restore_layout 897:Removing zones
+09-05 23:29:14 save_restore_layout.save_restore_layout 913:Removing tracks
+09-05 23:29:14 save_restore_layout.save_restore_layout 916:Bounding box points: (111694999, 123395001, 76174999, 141325001)
+09-05 23:29:14 save_restore_layout.save_restore_layout 936:Removing modules
+09-05 23:29:14 save_restore_layout.save_restore_layout 985:Saving layout in temporary file
+09-05 23:29:14 save_restore_layout.save_restore_layout 988:Reading layout as text
+09-05 23:29:14 save_restore_layout.save_restore_layout 995:Saving layout data
+09-05 23:29:14 save_restore_layout.save_restore_layout 1002:Succesfully saved the layout

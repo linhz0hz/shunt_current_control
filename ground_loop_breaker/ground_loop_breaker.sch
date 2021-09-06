@@ -38,4 +38,10 @@ U 61358712
 F0 "sheet61358710" 50
 F1 "isolated_dcdc_module.sch" 50
 $EndSheet
+$Sheet
+S 5400 2700 2000 900 
+U 61365BC4
+F0 "sheet61365BC2" 50
+F1 "isolated_dcdc_module_small.sch" 50
+$EndSheet
 $EndSCHEMATC

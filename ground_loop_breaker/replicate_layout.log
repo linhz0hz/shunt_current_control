@@ -1,25 +1,115 @@
-09-05 23:07:16 replicate_layout.action_replicate_layout 313:Plugin executed on: 'win32'
-09-05 23:07:16 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
-09-05 23:07:16 replicate_layout.action_replicate_layout 315:KiCad build version: Unknown
-09-05 23:07:16 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
-09-05 23:07:16 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+09-05 23:30:08 replicate_layout.action_replicate_layout 313:Plugin executed on: 'win32'
+09-05 23:30:08 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
+09-05 23:30:08 replicate_layout.action_replicate_layout 315:KiCad build version: Unknown
+09-05 23:30:08 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+09-05 23:30:08 replicate_layout.action_replicate_layout 329:All top level windows titles are:
 kicad (5.1.4)-1 d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker\ground_loop_breaker.pro
-
-eeschema — isolated_dcdc_module.sch [/power_module_a/] — d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker
 
 pcbnew — d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker\ground_loop_breaker.kicad_pcb
 
 
-09-05 23:07:16 replicate_layout.action_replicate_layout 330:All top level windows objects are:
- <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x32eea20> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x2e9ca30> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7b2e260> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x91f1c00> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x91c7c40> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1d2a3750> >
-<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1d2a4bf0> >
-09-05 23:07:16 replicate_layout.action_replicate_layout 353:Preparing replicator with J1 as a reference
-09-05 23:07:16 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
-09-05 23:07:16 replicate_layout.replicatelayout 217:Project hierarchy looks like:
-{u'61359581': [u'power_module_A', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch'], u'613A5306': [u'power_module_D', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module_small.sch']}
-09-05 23:07:16 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+save/restore layout
+save/restore layout
+eeschema — isolated_dcdc_module_small.sch [/power_module_d/] — d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker
+
+3d viewer
+
+save/restore layout
+save/restore layout
+save/restore layout
+09-05 23:30:08 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x3310140> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x2ec1480> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xae2c430> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x9cbf9b0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x9cc0e50> >
+<save_restore_layout.action_save_restore_layout.InitialDialog; proxy of <Swig Object of type 'wxDialog *' at 0x8f97a60> >
+<save_restore_layout.action_save_restore_layout.InitialDialog; proxy of <Swig Object of type 'wxDialog *' at 0x8f96da0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x11689c90> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xa8839a0> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x3e8bd070> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0xa881ab0> >
+<save_restore_layout.action_save_restore_layout.InitialDialog; proxy of <Swig Object of type 'wxDialog *' at 0x89d3080> >
+<save_restore_layout.action_save_restore_layout.InitialDialog; proxy of <Swig Object of type 'wxDialog *' at 0x89d46d0> >
+<save_restore_layout.action_save_restore_layout.InitialDialog; proxy of <Swig Object of type 'wxDialog *' at 0x89d26f0> >
+09-05 23:30:08 replicate_layout.action_replicate_layout 353:Preparing replicator with PS3 as a reference
+09-05 23:30:08 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+09-05 23:30:08 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'61365BC4': [u'sheet61365BC2', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module_small.sch'], u'613586DE': [u'sheet613586DC', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch'], u'61359581': [u'power_module_A', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch'], u'613A5306': [u'power_module_D', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module_small.sch'], u'61358712': [u'sheet61358710', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch']}
+09-05 23:30:08 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+09-05 23:30:08 replicate_layout.action_replicate_layout 380:source anchor footprint is u'PS3'
+Located on:[u'power_module_D']
+With filenames:[u'isolated_dcdc_module_small.sch']
+With sheet_id:[u'power_module_D']
+09-05 23:30:08 replicate_layout.action_replicate_layout 384:Corresponding footprints are 
+[(u'PS5', [u'sheet61365BC2']), (u'PS3', [u'power_module_D'])]
+09-05 23:30:08 replicate_layout.action_replicate_layout 397:Showing dialog
+09-05 23:30:08 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'power_module_D', file:u'isolated_dcdc_module_small.sch'
+09-05 23:30:08 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'power_module_D']
+09-05 23:30:08 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'PS5', u'PS3']
+09-05 23:30:08 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/61365BC4/613AC1D6', u'/613A5306/613AC1D6']
+09-05 23:30:08 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet61365BC2'], [u'power_module_D']]
+09-05 23:30:08 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'power_module_D'], [u'sheet61365BC2']]
+09-05 23:30:08 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet61365BC2']]
+09-05 23:30:10 replicate_layout.action_replicate_layout 401:Pcbnew position: wx.Point(-9, -9)
+09-05 23:30:10 replicate_layout.action_replicate_layout 407:Display 0: wx.Rect(0, 0, 1920, 1080)
+09-05 23:30:10 replicate_layout.action_replicate_layout 411:Toolbar position: wx.Point(1669, 126)
+09-05 23:30:10 replicate_layout.action_replicate_layout 418:Dialog position: wx.Point(1356, 126)
+09-05 23:30:13 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'power_module_D', file:u'isolated_dcdc_module_small.sch'
+09-05 23:30:13 replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'power_module_D']
+09-05 23:30:13 replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'PS5', u'PS3']
+09-05 23:30:13 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/61365BC4/613AC1D6', u'/613A5306/613AC1D6']
+09-05 23:30:13 replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet61365BC2'], [u'power_module_D']]
+09-05 23:30:13 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'power_module_D'], [u'sheet61365BC2']]
+09-05 23:30:13 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'sheet61365BC2']]
+09-05 23:30:13 replicate_layout.action_replicate_layout 186:Replicating layout
+09-05 23:30:13 replicate_layout.replicatelayout 1002:Starting replication of sheets: [[u'sheet61365BC2']]
+on level: [u'power_module_D']
+with tracks=True, zone=True, text=True, containing=False, remove=False, locked=False
+09-05 23:30:13 root 269:updating GUI message: 'Preparing for replication'
+09-05 23:30:13 root 274:updating GUI with: 0
+09-05 23:30:13 replicate_layout.replicatelayout 556:Getting the list of source footprints
+09-05 23:30:13 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+09-05 23:30:13 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+09-05 23:30:13 replicate_layout.replicatelayout 568:Getting source bounding box
+09-05 23:30:13 root 274:updating GUI with: 37
+09-05 23:30:13 replicate_layout.replicatelayout 572:Getting source tracks
+09-05 23:30:13 replicate_layout.replicatelayout 576:Getting source zones
+09-05 23:30:13 root 274:updating GUI with: 62
+09-05 23:30:13 replicate_layout.replicatelayout 580:Getting source text items
+09-05 23:30:13 replicate_layout.replicatelayout 584:Getting source text items
+09-05 23:30:13 root 269:updating GUI message: 'Replicating footprints'
+09-05 23:30:13 replicate_layout.replicatelayout 590:Replicating footprints
+09-05 23:30:13 replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet61365BC2']
+09-05 23:30:13 root 274:updating GUI with: 33
+09-05 23:30:14 root 274:updating GUI with: 50
+09-05 23:30:14 root 274:updating GUI with: 66
+09-05 23:30:14 root 274:updating GUI with: 100
+09-05 23:30:14 root 269:updating GUI message: 'Replicating tracks'
+09-05 23:30:14 root 274:updating GUI with: 0
+09-05 23:30:14 replicate_layout.replicatelayout 720:Replicating tracks
+09-05 23:30:14 root 274:updating GUI with: 0
+09-05 23:30:14 replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet61365BC2']
+09-05 23:30:14 root 274:updating GUI with: 1
+09-05 23:30:14 root 269:updating GUI message: 'Replicating zones'
+09-05 23:30:14 replicate_layout.replicatelayout 771:Replicating zones
+09-05 23:30:14 replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet61365BC2']
+09-05 23:30:14 root 274:updating GUI with: 14
+09-05 23:30:14 root 269:updating GUI message: 'Replicating text'
+09-05 23:30:14 replicate_layout.replicatelayout 837:Replicating text
+09-05 23:30:14 root 274:updating GUI with: 0
+09-05 23:30:14 replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet61365BC2']
+09-05 23:30:14 root 269:updating GUI message: 'Replicating drawings'
+09-05 23:30:14 replicate_layout.replicatelayout 868:Replicating drawings
+09-05 23:30:14 replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet61365BC2']
+09-05 23:30:14 replicate_layout.action_replicate_layout 209:Replication complete
