@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:shunt_current_control_v2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -944,15 +945,15 @@ Wire Wire Line
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 60C3BB54
-P 5350 6300
+P 5600 6300
 AR Path="/60B48DBB/60C3BB54" Ref="J?"  Part="1" 
 AR Path="/60B2AA8F/60C3BB54" Ref="J?"  Part="1" 
 AR Path="/60B44D12/60C3BB54" Ref="J13"  Part="1" 
-F 0 "J13" H 5278 6538 50  0000 C CNN
-F 1 "Conn_Coaxial" H 5278 6447 50  0000 C CNN
-F 2 "SamacSys_Parts:Coaxial_IPX_TE_23370191-1-2" H 5350 6300 50  0001 C CNN
-F 3 " ~" H 5350 6300 50  0001 C CNN
-	1    5350 6300
+F 0 "J13" H 5528 6538 50  0000 C CNN
+F 1 "Conn_Coaxial" H 5528 6447 50  0000 C CNN
+F 2 "SamacSys_Parts:Coaxial_IPX_TE_23370191-1-2" H 5600 6300 50  0001 C CNN
+F 3 " ~" H 5600 6300 50  0001 C CNN
+	1    5600 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -984,31 +985,26 @@ F 3 " ~" H 8600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 6300 5150 6200
-Wire Wire Line
 	5150 6200 4900 6200
 Connection ~ 4900 6200
 Wire Wire Line
-	5350 7000 4900 7000
-Wire Wire Line
-	5350 6500 5350 7000
-Connection ~ 4900 7000
+	5600 6500 5600 7000
 Wire Wire Line
 	5750 3850 6000 3850
 Wire Wire Line
 	6000 3850 6000 4000
 Wire Wire Line
-	6000 4000 6300 4000
+	6000 4000 6050 4000
 Connection ~ 5750 3850
 Wire Wire Line
-	6500 4400 5750 4400
+	6500 4400 6050 4400
 Wire Wire Line
 	6500 4200 6500 4400
 Wire Wire Line
-	8400 1500 7750 1500
+	8400 1500 8300 1500
 Connection ~ 7750 1500
 Wire Wire Line
-	7750 2050 8600 2050
+	7750 2050 8300 2050
 Wire Wire Line
 	8600 1700 8600 2050
 $Comp
@@ -1064,4 +1060,65 @@ Wire Wire Line
 Connection ~ 4550 7000
 Wire Wire Line
 	4550 7000 3850 7000
+$Comp
+L Device:D D?
+U 1 1 613918CD
+P 8300 1800
+AR Path="/60B2AA8F/613918CD" Ref="D?"  Part="1" 
+AR Path="/60B44D12/613918CD" Ref="D8"  Part="1" 
+F 0 "D8" H 8300 2016 50  0000 C CNN
+F 1 "D" H 8300 1925 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 8300 1800 50  0001 C CNN
+F 3 "~" H 8300 1800 50  0001 C CNN
+	1    8300 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 4050 6050 4000
+Connection ~ 6050 4000
+Wire Wire Line
+	6050 4000 6300 4000
+Wire Wire Line
+	6050 4350 6050 4400
+Connection ~ 6050 4400
+Wire Wire Line
+	6050 4400 5750 4400
+$Comp
+L Device:D D?
+U 1 1 613B4AE9
+P 6050 4200
+AR Path="/60B2AA8F/613B4AE9" Ref="D?"  Part="1" 
+AR Path="/60B44D12/613B4AE9" Ref="D7"  Part="1" 
+F 0 "D7" H 6050 4416 50  0000 C CNN
+F 1 "D" H 6050 4325 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 6050 4200 50  0001 C CNN
+F 3 "~" H 6050 4200 50  0001 C CNN
+	1    6050 4200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4900 7000 5150 7000
+Connection ~ 4900 7000
+Wire Wire Line
+	5150 6900 5150 7000
+Connection ~ 5150 7000
+Wire Wire Line
+	5150 7000 5600 7000
+Wire Wire Line
+	5150 6200 5150 6300
+Wire Wire Line
+	5150 6300 5400 6300
+Connection ~ 5150 6300
+Wire Wire Line
+	5150 6300 5150 6600
+Wire Wire Line
+	8300 1650 8300 1500
+Connection ~ 8300 1500
+Wire Wire Line
+	8300 1500 7750 1500
+Wire Wire Line
+	8300 1950 8300 2050
+Connection ~ 8300 2050
+Wire Wire Line
+	8300 2050 8600 2050
 $EndSCHEMATC

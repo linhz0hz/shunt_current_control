@@ -433,6 +433,283 @@ X B 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_35MU106MD35750
+#
+DEF SamacSys_Parts_35MU106MD35750 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "SamacSys_Parts_35MU106MD35750" 350 150 50 H V L CNN
+F2 "CAPC5750X280N" 350 50 50 H I L CNN
+F3 "http://www.rubycon.co.jp/en/catalog/e_pdfs/pmlcap/e_MU.pdf" 350 -50 50 H I L CNN
+F4 "CAP FILM 10UF 20% 35VDC 2220" 350 -150 50 H I L CNN "Description"
+F5 "2.8" 350 -250 50 H I L CNN "Height"
+F6 "232-35MU106MD35750" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Rubycon/35MU106MD35750?qs=T3oQrply3y%252BcmT4yat%2FO1A%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Rubycon" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "35MU106MD35750" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_7461057
+#
+DEF SamacSys_Parts_7461057 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "SamacSys_Parts_7461057" 650 200 50 H V L CNN
+F2 "7461057" 650 100 50 H I L CNN
+F3 "https://katalog.we-online.com/em/datasheet/7461057.pdf" 650 0 50 H I L CNN
+F4 "PCB power element bush terminal, 6P, M3" 650 -100 50 H I L CNN "Description"
+F5 "6.2" 650 -200 50 H I L CNN "Height"
+F6 "710-7461057" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057/?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "7461057" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 800 -200 200 L 50 50 0 0 P
+X 5 5 800 -100 200 L 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ADG1402BRMZ
+#
+DEF SamacSys_Parts_ADG1402BRMZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_ADG1402BRMZ" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Analog Devices ADG1402BRMZ, Analogue Switch SPST NO, 12 V, 8-Pin MSOP" 950 -100 50 H I L CNN "Description"
+F5 "1.1" 950 -200 50 H I L CNN "Height"
+F6 "584-ADG1402BRMZ" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADG1402BRMZ?qs=BpaRKvA4VqHUd7pvsa%252BLOQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ADG1402BRMZ" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X S 1 0 0 200 R 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 1100 -300 200 L 50 50 0 0 P
+X IN 6 1100 -200 200 L 50 50 0 0 P
+X VSS 7 1100 -100 200 L 50 50 0 0 P
+X D 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_ADP7118AUJZ-5.0-R7
+#
+DEF SamacSys_Parts_ADP7118AUJZ-5.0-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "SamacSys_Parts_ADP7118AUJZ-5.0-R7" 1150 200 50 H V L CNN
+F2 "SOT95P280X100-5N" 1150 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/adp7118.pdf" 1150 0 50 H I L CNN
+F4 "LDO Voltage Regulators 20V 200mA LDO 5.0Vo" 1150 -100 50 H I L CNN "Description"
+F5 "1" 1150 -200 50 H I L CNN "Height"
+F6 "584-ADP7118AUJZ5.0R7" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP7118AUJZ-50-R7?qs=hpwIUhX6lWzp%252BHPslBdPxA%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ADP7118AUJZ-5.0-R7" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+X VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X SENSE/ADJ 4 1300 0 200 L 50 50 0 0 P
+X VOUT 5 1300 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_C_kelvin
+#
+DEF SamacSys_Parts_C_kelvin C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "SamacSys_Parts_C_kelvin" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 -100 0 -50 N
+P 2 0 1 0 -100 100 0 50 N
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+X ~ 3 -200 100 100 R 50 50 1 1 P
+X ~ 4 -200 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_INA592
+#
+DEF SamacSys_Parts_INA592 U 0 5 Y Y 1 F N
+F0 "U" 300 200 50 H V C CNN
+F1 "SamacSys_Parts_INA592" 300 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SOIC*3.9x4.9mm*P1.27mm*
+ MSOP*3x3mm*P0.65mm*
+$ENDFPLIST
+DRAW
+P 4 0 1 10 -200 200 200 0 -200 -200 -200 200 f
+X REF 1 0 -300 200 U 50 20 1 1 P
+X - 2 -300 -100 100 R 50 50 1 1 P
+X + 3 -300 100 100 R 50 50 1 1 P
+X V- 4 -100 -300 150 U 50 50 1 1 W
+X SENSE 5 0 300 200 D 50 20 1 1 P
+X ~ 6 300 0 100 L 50 50 1 1 O
+X V+ 7 -100 300 150 D 50 50 1 1 W
+X ~ 8 -200 0 100 R 50 50 1 1 N N
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_INA818IDR
+#
+DEF SamacSys_Parts_INA818IDR IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_INA818IDR" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/INA818" 950 0 50 H I L CNN
+F4 "35-uV offset, 8-nV/Hz noise, low-power, precision instrumentation amplifier" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "595-INA818IDR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA818IDR/?qs=T3oQrply3y%252BvW%2FEIvqoymg%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "INA818IDR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X RG_1 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X -VS 4 0 -300 200 R 50 50 0 0 P
+X REF 5 1100 -300 200 L 50 50 0 0 P
+X OUT 6 1100 -200 200 L 50 50 0 0 P
+X +VS 7 1100 -100 200 L 50 50 0 0 P
+X RG_2 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_LT3042EMSE#PBF
+#
+DEF SamacSys_Parts_LT3042EMSE#PBF IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_LT3042EMSE#PBF" 1050 200 50 H V L CNN
+F2 "SOP50P490X110-11N" 1050 100 50 H I L CNN
+F3 "http://www.linear.com/docs/46159" 1050 0 50 H I L CNN
+F4 "LINEAR TECHNOLOGY - LT3042EMSE#PBF - LDO, ADJ, 0.2A, 0V-15V, MSOP-10" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "584-LT3042EMSE#PBF" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LT3042EMSEPBF?qs=oahfZPh6IAJ3XP16d20ITw%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linear Technology" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LT3042EMSE#PBF" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -900 200 -900 200 100 N
+X IN_1 1 0 0 200 R 50 50 0 0 P
+X OUT 10 1200 0 200 L 50 50 0 0 P
+X GND_2 11 600 -1100 200 U 50 50 0 0 P
+X IN_2 2 0 -100 200 R 50 50 0 0 P
+X EN/UV 3 0 -200 200 R 50 50 0 0 P
+X PG 4 0 -300 200 R 50 50 0 0 P
+X ILIM 5 0 -400 200 R 50 50 0 0 P
+X PGFB 6 1200 -400 200 L 50 50 0 0 P
+X SET 7 1200 -300 200 L 50 50 0 0 P
+X GND_1 8 1200 -200 200 L 50 50 0 0 P
+X OUTS 9 1200 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_LT3093EMSE#PBF
+#
+DEF SamacSys_Parts_LT3093EMSE#PBF IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "SamacSys_Parts_LT3093EMSE#PBF" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-13N" 1050 100 50 H I L CNN
+F3 "https://www.analog.com/media/jp/technical-documentation/data-sheets/LT3093_jp.pdf" 1050 0 50 H I L CNN
+F4 "LDO Voltage Regulators -20V, 200mA Ultralow Noise/PSRR LDO" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "584-LT3093EMSE#PBF" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Linear-Technology/LT3093EMSEPBF?qs=vLWxofP3U2wV6NKTDKQxtg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Linear Technology" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "LT3093EMSE#PBF" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -900 200 -900 200 100 N
+X IN_1 1 0 0 200 R 50 50 0 0 P
+X OUTS 10 1200 -200 200 L 50 50 0 0 P
+X OUT_1 11 1200 -100 200 L 50 50 0 0 P
+X OUT_2 12 1200 0 200 L 50 50 0 0 P
+X EPAD 13 600 -1100 200 U 50 50 0 0 P
+X IN_2 2 0 -100 200 R 50 50 0 0 P
+X EN/UV 3 0 -200 200 R 50 50 0 0 P
+X PG 4 0 -300 200 R 50 50 0 0 P
+X PGFB 5 0 -400 200 R 50 50 0 0 P
+X ILIM 6 0 -500 200 R 50 50 0 0 P
+X VIOC 7 1200 -500 200 L 50 50 0 0 P
+X SET 8 1200 -400 200 L 50 50 0 0 P
+X GND 9 1200 -300 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TLP116A_TPL,E
+#
+DEF SamacSys_Parts_TLP116A_TPL,E IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "SamacSys_Parts_TLP116A_TPL,E" 1450 200 50 H V L CNN
+F2 "SOT127P700X230-6N" 1450 100 50 H I L CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Toshiba%20PDFs/TLP116A.pdf" 1450 0 50 H I L CNN
+F4 "High Speed Optocouplers Pwr Suply 6V100degC Oper 5.5V 3750Vrms" 1450 -100 50 H I L CNN "Description"
+F5 "2.3" 1450 -200 50 H I L CNN "Height"
+F6 "757-TLP116A(TPLE" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP116ATPLE?qs=HVbQlW5zcXWPuFTVF%252BZ0qw%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Toshiba" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TLP116A(TPL,E" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1400 100 1400 -300 200 -300 200 100 N
+X ANODE 1 0 0 200 R 50 50 0 0 P
+X CATHODE 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1600 -200 200 L 50 50 0 0 P
+X VO(OUTPUT) 5 1600 -100 200 L 50 50 0 0 P
+X VCC 6 1600 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# SamacSys_Parts_TMUX6219DGKR
+#
+DEF SamacSys_Parts_TMUX6219DGKR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SamacSys_Parts_TMUX6219DGKR" 850 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 850 100 50 H I L CNN
+F3 "https://www.ti.com/lit/ds/symlink/tmux6219.pdf?ts=1615989354363&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTMUX6219" 850 0 50 H I L CNN
+F4 "Analog Switch/Analog Multiplexer Single 2:1 8-Pin VSSOP T/R" 850 -100 50 H I L CNN "Description"
+F5 "1.1" 850 -200 50 H I L CNN "Height"
+F6 "595-TMUX6219DGKR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TMUX6219DGKR?qs=pUKx8fyJudA7p%252BwF1KuLgQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TMUX6219DGKR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+X D 1 0 0 200 R 50 50 0 0 P
+X S1 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X EN 5 1000 -300 200 L 50 50 0 0 P
+X SEL 6 1000 -200 200 L 50 50 0 0 P
+X VSS 7 1000 -100 200 L 50 50 0 0 P
+X S2 8 1000 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # power_+12VA
 #
 DEF power_+12VA #PWR 0 0 Y Y 1 F P

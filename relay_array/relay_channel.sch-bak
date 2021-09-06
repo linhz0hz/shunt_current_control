@@ -1,0 +1,781 @@
+EESchema Schematic File Version 4
+LIBS:relay_array-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:Relay_CIT_J115F2 K1
+U 1 1 613655D3
+P 3750 3350
+AR Path="/6136097D/613655D3" Ref="K1"  Part="1" 
+AR Path="/613FD16E/613655D3" Ref="K2"  Part="1" 
+AR Path="/613FD1B8/613655D3" Ref="K3"  Part="1" 
+AR Path="/6140D7B4/613655D3" Ref="K2"  Part="1" 
+AR Path="/6140D7EF/613655D3" Ref="K3"  Part="1" 
+AR Path="/614119F8/613655D3" Ref="K2"  Part="1" 
+AR Path="/61411A34/613655D3" Ref="K3"  Part="1" 
+F 0 "K2" H 4180 3396 50  0000 L CNN
+F 1 "Relay_CIT_J115F2" H 4180 3305 50  0000 L CNN
+F 2 "SamacSys_Parts:Relay_CIT_J115F2" H 4200 3300 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 61366A4E
+P 2850 3300
+AR Path="/6136097D/61366A4E" Ref="C1"  Part="1" 
+AR Path="/613FD16E/61366A4E" Ref="C4"  Part="1" 
+AR Path="/613FD1B8/61366A4E" Ref="C6"  Part="1" 
+AR Path="/6140D7B4/61366A4E" Ref="C4"  Part="1" 
+AR Path="/6140D7EF/61366A4E" Ref="C6"  Part="1" 
+AR Path="/614119F8/61366A4E" Ref="C4"  Part="1" 
+AR Path="/61411A34/61366A4E" Ref="C6"  Part="1" 
+F 0 "C4" H 2965 3346 50  0000 L CNN
+F 1 "C" H 2965 3255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2888 3150 50  0001 C CNN
+F 3 "~" H 2850 3300 50  0001 C CNN
+	1    2850 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3050 3550 3000
+Wire Wire Line
+	3550 3000 2850 3000
+Wire Wire Line
+	2850 3000 2850 3150
+$Comp
+L power:GND #PWR01
+U 1 1 61367A0F
+P 2850 3600
+AR Path="/6136097D/61367A0F" Ref="#PWR01"  Part="1" 
+AR Path="/613FD16E/61367A0F" Ref="#PWR0109"  Part="1" 
+AR Path="/613FD1B8/61367A0F" Ref="#PWR0121"  Part="1" 
+AR Path="/6140D7B4/61367A0F" Ref="#PWR0109"  Part="1" 
+AR Path="/6140D7EF/61367A0F" Ref="#PWR0121"  Part="1" 
+AR Path="/614119F8/61367A0F" Ref="#PWR0109"  Part="1" 
+AR Path="/61411A34/61367A0F" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 2850 3350 50  0001 C CNN
+F 1 "GND" H 2855 3427 50  0000 C CNN
+F 2 "" H 2850 3600 50  0001 C CNN
+F 3 "" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3650 3550 3750
+Wire Wire Line
+	3550 4200 3550 4300
+$Comp
+L power:GND #PWR02
+U 1 1 6136B40F
+P 3550 4350
+AR Path="/6136097D/6136B40F" Ref="#PWR02"  Part="1" 
+AR Path="/613FD16E/6136B40F" Ref="#PWR0110"  Part="1" 
+AR Path="/613FD1B8/6136B40F" Ref="#PWR0122"  Part="1" 
+AR Path="/6140D7B4/6136B40F" Ref="#PWR0110"  Part="1" 
+AR Path="/6140D7EF/6136B40F" Ref="#PWR0122"  Part="1" 
+AR Path="/614119F8/6136B40F" Ref="#PWR0110"  Part="1" 
+AR Path="/61411A34/6136B40F" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 3550 4100 50  0001 C CNN
+F 1 "GND" H 3555 4177 50  0000 C CNN
+F 2 "" H 3550 4350 50  0001 C CNN
+F 3 "" H 3550 4350 50  0001 C CNN
+	1    3550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 4200 4200 4300
+Wire Wire Line
+	4200 4300 3550 4300
+Connection ~ 3550 4300
+Wire Wire Line
+	3550 4300 3550 4350
+Wire Wire Line
+	4200 3800 4200 3750
+Wire Wire Line
+	4200 3750 3550 3750
+Connection ~ 3550 3750
+Wire Wire Line
+	3550 3750 3550 3800
+Wire Wire Line
+	3900 4000 3900 4800
+Wire Wire Line
+	3900 4800 3100 4800
+Wire Wire Line
+	3100 4800 3100 4000
+Wire Wire Line
+	3100 4000 3250 4000
+$Comp
+L Transistor_FET:PSMN5R2-60YL Q1
+U 1 1 6136F7FD
+P 3450 4000
+AR Path="/6136097D/6136F7FD" Ref="Q1"  Part="1" 
+AR Path="/613FD16E/6136F7FD" Ref="Q2"  Part="1" 
+AR Path="/613FD1B8/6136F7FD" Ref="Q3"  Part="1" 
+AR Path="/6140D7B4/6136F7FD" Ref="Q2"  Part="1" 
+AR Path="/6140D7EF/6136F7FD" Ref="Q3"  Part="1" 
+AR Path="/614119F8/6136F7FD" Ref="Q2"  Part="1" 
+AR Path="/61411A34/6136F7FD" Ref="Q3"  Part="1" 
+F 0 "Q2" H 3656 4046 50  0000 L CNN
+F 1 "PSMN5R2-60YL" H 3656 3955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:LFPAK56" H 3600 4000 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN5R2-60YL.pdf" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP291 U1
+U 1 1 613731DB
+P 2500 5150
+AR Path="/6136097D/613731DB" Ref="U1"  Part="1" 
+AR Path="/613FD16E/613731DB" Ref="U5"  Part="1" 
+AR Path="/613FD1B8/613731DB" Ref="U9"  Part="1" 
+AR Path="/6140D7B4/613731DB" Ref="U5"  Part="1" 
+AR Path="/6140D7EF/613731DB" Ref="U9"  Part="1" 
+AR Path="/614119F8/613731DB" Ref="U5"  Part="1" 
+AR Path="/61411A34/613731DB" Ref="U9"  Part="1" 
+F 0 "U5" H 2500 5475 50  0000 C CNN
+F 1 "TLP291" H 2500 5384 50  0000 C CNN
+F 2 "Package_SO:SOIC-4_4.55x3.7mm_P2.54mm" H 2300 4950 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 2500 5150 50  0001 L CNN
+	1    2500 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP291 U2
+U 1 1 61376CAA
+P 2500 5950
+AR Path="/6136097D/61376CAA" Ref="U2"  Part="1" 
+AR Path="/613FD16E/61376CAA" Ref="U6"  Part="1" 
+AR Path="/613FD1B8/61376CAA" Ref="U10"  Part="1" 
+AR Path="/6140D7B4/61376CAA" Ref="U6"  Part="1" 
+AR Path="/6140D7EF/61376CAA" Ref="U10"  Part="1" 
+AR Path="/614119F8/61376CAA" Ref="U6"  Part="1" 
+AR Path="/61411A34/61376CAA" Ref="U10"  Part="1" 
+F 0 "U6" H 2500 6275 50  0000 C CNN
+F 1 "TLP291" H 2500 6184 50  0000 C CNN
+F 2 "Package_SO:SO-4_4.4x3.6mm_P2.54mm" H 2300 5750 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 2500 5950 50  0001 L CNN
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xGxx:74LVC1G27 U4
+U 1 1 613773F0
+P 3600 5900
+AR Path="/6136097D/613773F0" Ref="U4"  Part="1" 
+AR Path="/613FD16E/613773F0" Ref="U8"  Part="1" 
+AR Path="/613FD1B8/613773F0" Ref="U12"  Part="1" 
+AR Path="/6140D7B4/613773F0" Ref="U8"  Part="1" 
+AR Path="/6140D7EF/613773F0" Ref="U12"  Part="1" 
+AR Path="/614119F8/613773F0" Ref="U8"  Part="1" 
+AR Path="/61411A34/613773F0" Ref="U12"  Part="1" 
+F 0 "U8" H 3600 6214 50  0000 C CNN
+F 1 "74LVC1G27" H 3600 6123 50  0000 C CNN
+F 2 "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm" H 3600 5900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3600 5900 50  0001 C CNN
+	1    3600 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5850 2900 5850
+Wire Wire Line
+	3050 5900 3300 5900
+Wire Wire Line
+	2800 5050 2900 5050
+Wire Wire Line
+	3900 5900 4050 5900
+Wire Wire Line
+	4050 5900 4050 4800
+Wire Wire Line
+	4050 4800 3900 4800
+Connection ~ 3900 4800
+$Comp
+L Device:D_Zener D1
+U 1 1 6138584F
+P 1950 5050
+AR Path="/6136097D/6138584F" Ref="D1"  Part="1" 
+AR Path="/613FD16E/6138584F" Ref="D4"  Part="1" 
+AR Path="/613FD1B8/6138584F" Ref="D7"  Part="1" 
+AR Path="/6140D7B4/6138584F" Ref="D4"  Part="1" 
+AR Path="/6140D7EF/6138584F" Ref="D7"  Part="1" 
+AR Path="/614119F8/6138584F" Ref="D4"  Part="1" 
+AR Path="/61411A34/6138584F" Ref="D7"  Part="1" 
+F 0 "D4" H 1950 5266 50  0000 C CNN
+F 1 "D_Zener" H 1950 5175 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1950 5050 50  0001 C CNN
+F 3 "~" H 1950 5050 50  0001 C CNN
+	1    1950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 61386443
+P 1950 5250
+AR Path="/6136097D/61386443" Ref="R1"  Part="1" 
+AR Path="/613FD16E/61386443" Ref="R7"  Part="1" 
+AR Path="/613FD1B8/61386443" Ref="R13"  Part="1" 
+AR Path="/6140D7B4/61386443" Ref="R7"  Part="1" 
+AR Path="/6140D7EF/61386443" Ref="R13"  Part="1" 
+AR Path="/614119F8/61386443" Ref="R7"  Part="1" 
+AR Path="/61411A34/61386443" Ref="R13"  Part="1" 
+F 0 "R7" V 1743 5250 50  0000 C CNN
+F 1 "R" V 1834 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 5250 50  0001 C CNN
+F 3 "~" H 1950 5250 50  0001 C CNN
+	1    1950 5250
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 5050 2200 5050
+Wire Wire Line
+	2200 5250 2100 5250
+$Comp
+L Device:D_Zener D2
+U 1 1 61388846
+P 1950 5850
+AR Path="/6136097D/61388846" Ref="D2"  Part="1" 
+AR Path="/613FD16E/61388846" Ref="D5"  Part="1" 
+AR Path="/613FD1B8/61388846" Ref="D8"  Part="1" 
+AR Path="/6140D7B4/61388846" Ref="D5"  Part="1" 
+AR Path="/6140D7EF/61388846" Ref="D8"  Part="1" 
+AR Path="/614119F8/61388846" Ref="D5"  Part="1" 
+AR Path="/61411A34/61388846" Ref="D8"  Part="1" 
+F 0 "D5" H 1950 6066 50  0000 C CNN
+F 1 "D_Zener" H 1950 5975 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1950 5850 50  0001 C CNN
+F 3 "~" H 1950 5850 50  0001 C CNN
+	1    1950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6138884C
+P 1950 6050
+AR Path="/6136097D/6138884C" Ref="R2"  Part="1" 
+AR Path="/613FD16E/6138884C" Ref="R8"  Part="1" 
+AR Path="/613FD1B8/6138884C" Ref="R14"  Part="1" 
+AR Path="/6140D7B4/6138884C" Ref="R8"  Part="1" 
+AR Path="/6140D7EF/6138884C" Ref="R14"  Part="1" 
+AR Path="/614119F8/6138884C" Ref="R8"  Part="1" 
+AR Path="/61411A34/6138884C" Ref="R14"  Part="1" 
+F 0 "R8" V 1743 6050 50  0000 C CNN
+F 1 "R" V 1834 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 6050 50  0001 C CNN
+F 3 "~" H 1950 6050 50  0001 C CNN
+	1    1950 6050
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 5850 2200 5850
+Wire Wire Line
+	2200 6050 2100 6050
+$Comp
+L Isolator:TLP291 U3
+U 1 1 6138B6A5
+P 2500 6750
+AR Path="/6136097D/6138B6A5" Ref="U3"  Part="1" 
+AR Path="/613FD16E/6138B6A5" Ref="U7"  Part="1" 
+AR Path="/613FD1B8/6138B6A5" Ref="U11"  Part="1" 
+AR Path="/6140D7B4/6138B6A5" Ref="U7"  Part="1" 
+AR Path="/6140D7EF/6138B6A5" Ref="U11"  Part="1" 
+AR Path="/614119F8/6138B6A5" Ref="U7"  Part="1" 
+AR Path="/61411A34/6138B6A5" Ref="U11"  Part="1" 
+F 0 "U7" H 2500 7075 50  0000 C CNN
+F 1 "TLP291" H 2500 6984 50  0000 C CNN
+F 2 "Package_SO:SO-4_4.4x3.6mm_P2.54mm" H 2300 6550 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12884&prodName=TLP291" H 2500 6750 50  0001 L CNN
+	1    2500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Zener D3
+U 1 1 6138B6AC
+P 1950 6650
+AR Path="/6136097D/6138B6AC" Ref="D3"  Part="1" 
+AR Path="/613FD16E/6138B6AC" Ref="D6"  Part="1" 
+AR Path="/613FD1B8/6138B6AC" Ref="D9"  Part="1" 
+AR Path="/6140D7B4/6138B6AC" Ref="D6"  Part="1" 
+AR Path="/6140D7EF/6138B6AC" Ref="D9"  Part="1" 
+AR Path="/614119F8/6138B6AC" Ref="D6"  Part="1" 
+AR Path="/61411A34/6138B6AC" Ref="D9"  Part="1" 
+F 0 "D6" H 1950 6866 50  0000 C CNN
+F 1 "D_Zener" H 1950 6775 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 1950 6650 50  0001 C CNN
+F 3 "~" H 1950 6650 50  0001 C CNN
+	1    1950 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6138B6B2
+P 1950 6850
+AR Path="/6136097D/6138B6B2" Ref="R3"  Part="1" 
+AR Path="/613FD16E/6138B6B2" Ref="R9"  Part="1" 
+AR Path="/613FD1B8/6138B6B2" Ref="R15"  Part="1" 
+AR Path="/6140D7B4/6138B6B2" Ref="R9"  Part="1" 
+AR Path="/6140D7EF/6138B6B2" Ref="R15"  Part="1" 
+AR Path="/614119F8/6138B6B2" Ref="R9"  Part="1" 
+AR Path="/61411A34/6138B6B2" Ref="R15"  Part="1" 
+F 0 "R9" V 1743 6850 50  0000 C CNN
+F 1 "R" V 1834 6850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 6850 50  0001 C CNN
+F 3 "~" H 1950 6850 50  0001 C CNN
+	1    1950 6850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2100 6650 2200 6650
+Wire Wire Line
+	2200 6850 2100 6850
+Wire Wire Line
+	3050 5850 3050 5900
+Wire Wire Line
+	2800 6650 2900 6650
+$Comp
+L power:GND #PWR0101
+U 1 1 6138D802
+P 2900 5300
+AR Path="/6136097D/6138D802" Ref="#PWR0101"  Part="1" 
+AR Path="/613FD16E/6138D802" Ref="#PWR0111"  Part="1" 
+AR Path="/613FD1B8/6138D802" Ref="#PWR0123"  Part="1" 
+AR Path="/6140D7B4/6138D802" Ref="#PWR0111"  Part="1" 
+AR Path="/6140D7EF/6138D802" Ref="#PWR0123"  Part="1" 
+AR Path="/614119F8/6138D802" Ref="#PWR0111"  Part="1" 
+AR Path="/61411A34/6138D802" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 2900 5050 50  0001 C CNN
+F 1 "GND" H 2905 5127 50  0000 C CNN
+F 2 "" H 2900 5300 50  0001 C CNN
+F 3 "" H 2900 5300 50  0001 C CNN
+	1    2900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 6138E063
+P 2900 6100
+AR Path="/6136097D/6138E063" Ref="#PWR0102"  Part="1" 
+AR Path="/613FD16E/6138E063" Ref="#PWR0112"  Part="1" 
+AR Path="/613FD1B8/6138E063" Ref="#PWR0124"  Part="1" 
+AR Path="/6140D7B4/6138E063" Ref="#PWR0112"  Part="1" 
+AR Path="/6140D7EF/6138E063" Ref="#PWR0124"  Part="1" 
+AR Path="/614119F8/6138E063" Ref="#PWR0112"  Part="1" 
+AR Path="/61411A34/6138E063" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 2900 5850 50  0001 C CNN
+F 1 "GND" H 2905 5927 50  0000 C CNN
+F 2 "" H 2900 6100 50  0001 C CNN
+F 3 "" H 2900 6100 50  0001 C CNN
+	1    2900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6138E85B
+P 2900 6900
+AR Path="/6136097D/6138E85B" Ref="#PWR0103"  Part="1" 
+AR Path="/613FD16E/6138E85B" Ref="#PWR0113"  Part="1" 
+AR Path="/613FD1B8/6138E85B" Ref="#PWR0125"  Part="1" 
+AR Path="/6140D7B4/6138E85B" Ref="#PWR0113"  Part="1" 
+AR Path="/6140D7EF/6138E85B" Ref="#PWR0125"  Part="1" 
+AR Path="/614119F8/6138E85B" Ref="#PWR0113"  Part="1" 
+AR Path="/61411A34/6138E85B" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 2900 6650 50  0001 C CNN
+F 1 "GND" H 2905 6727 50  0000 C CNN
+F 2 "" H 2900 6900 50  0001 C CNN
+F 3 "" H 2900 6900 50  0001 C CNN
+	1    2900 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6850 2900 6850
+Wire Wire Line
+	2900 6850 2900 6900
+Wire Wire Line
+	2900 6100 2900 6050
+Wire Wire Line
+	2900 6050 2800 6050
+Wire Wire Line
+	2800 5250 2900 5250
+Wire Wire Line
+	2900 5250 2900 5300
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 61390B69
+P 1400 5100
+AR Path="/6136097D/61390B69" Ref="J1"  Part="1" 
+AR Path="/613FD16E/61390B69" Ref="J5"  Part="1" 
+AR Path="/613FD1B8/61390B69" Ref="J9"  Part="1" 
+AR Path="/6140D7B4/61390B69" Ref="J5"  Part="1" 
+AR Path="/6140D7EF/61390B69" Ref="J9"  Part="1" 
+AR Path="/614119F8/61390B69" Ref="J5"  Part="1" 
+AR Path="/61411A34/61390B69" Ref="J9"  Part="1" 
+F 0 "J5" H 1508 5189 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1508 5190 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 5100 50  0001 C CNN
+F 3 "~" H 1400 5100 50  0001 C CNN
+	1    1400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5100 1700 5100
+Wire Wire Line
+	1700 5100 1700 5050
+Wire Wire Line
+	1700 5050 1800 5050
+Wire Wire Line
+	1800 5250 1700 5250
+Wire Wire Line
+	1700 5250 1700 5200
+Wire Wire Line
+	1700 5200 1600 5200
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 61392C07
+P 1400 5900
+AR Path="/6136097D/61392C07" Ref="J2"  Part="1" 
+AR Path="/613FD16E/61392C07" Ref="J6"  Part="1" 
+AR Path="/613FD1B8/61392C07" Ref="J10"  Part="1" 
+AR Path="/6140D7B4/61392C07" Ref="J6"  Part="1" 
+AR Path="/6140D7EF/61392C07" Ref="J10"  Part="1" 
+AR Path="/614119F8/61392C07" Ref="J6"  Part="1" 
+AR Path="/61411A34/61392C07" Ref="J10"  Part="1" 
+F 0 "J6" H 1508 5989 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1508 5990 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 5900 50  0001 C CNN
+F 3 "~" H 1400 5900 50  0001 C CNN
+	1    1400 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 61393A23
+P 1400 6700
+AR Path="/6136097D/61393A23" Ref="J3"  Part="1" 
+AR Path="/613FD16E/61393A23" Ref="J7"  Part="1" 
+AR Path="/613FD1B8/61393A23" Ref="J11"  Part="1" 
+AR Path="/6140D7B4/61393A23" Ref="J7"  Part="1" 
+AR Path="/6140D7EF/61393A23" Ref="J11"  Part="1" 
+AR Path="/614119F8/61393A23" Ref="J7"  Part="1" 
+AR Path="/61411A34/61393A23" Ref="J11"  Part="1" 
+F 0 "J7" H 1508 6789 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1508 6790 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1400 6700 50  0001 C CNN
+F 3 "~" H 1400 6700 50  0001 C CNN
+	1    1400 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 6000 1700 6000
+Wire Wire Line
+	1700 6000 1700 6050
+Wire Wire Line
+	1700 6050 1800 6050
+Wire Wire Line
+	1800 5850 1700 5850
+Wire Wire Line
+	1700 5850 1700 5900
+Wire Wire Line
+	1700 5900 1600 5900
+Wire Wire Line
+	1600 6700 1700 6700
+Wire Wire Line
+	1700 6700 1700 6650
+Wire Wire Line
+	1700 6650 1800 6650
+Wire Wire Line
+	1800 6850 1700 6850
+Wire Wire Line
+	1700 6850 1700 6800
+Wire Wire Line
+	1700 6800 1600 6800
+$Comp
+L Device:R R4
+U 1 1 6139A013
+P 2500 4700
+AR Path="/6136097D/6139A013" Ref="R4"  Part="1" 
+AR Path="/613FD16E/6139A013" Ref="R10"  Part="1" 
+AR Path="/613FD1B8/6139A013" Ref="R16"  Part="1" 
+AR Path="/6140D7B4/6139A013" Ref="R10"  Part="1" 
+AR Path="/6140D7EF/6139A013" Ref="R16"  Part="1" 
+AR Path="/614119F8/6139A013" Ref="R10"  Part="1" 
+AR Path="/61411A34/6139A013" Ref="R16"  Part="1" 
+F 0 "R10" V 2500 4700 50  0000 C CNN
+F 1 "R" V 2384 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 4700 50  0001 C CNN
+F 3 "~" H 2500 4700 50  0001 C CNN
+	1    2500 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4700 2900 4700
+Wire Wire Line
+	2900 4700 2900 5050
+Connection ~ 2900 5050
+Wire Wire Line
+	2900 5050 3150 5050
+$Comp
+L power:VCC #PWR0104
+U 1 1 6139C9B3
+P 2250 4700
+AR Path="/6136097D/6139C9B3" Ref="#PWR0104"  Part="1" 
+AR Path="/613FD16E/6139C9B3" Ref="#PWR0114"  Part="1" 
+AR Path="/613FD1B8/6139C9B3" Ref="#PWR0126"  Part="1" 
+AR Path="/6140D7B4/6139C9B3" Ref="#PWR0114"  Part="1" 
+AR Path="/6140D7EF/6139C9B3" Ref="#PWR0126"  Part="1" 
+AR Path="/614119F8/6139C9B3" Ref="#PWR0114"  Part="1" 
+AR Path="/61411A34/6139C9B3" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 2250 4550 50  0001 C CNN
+F 1 "VCC" V 2268 4827 50  0000 L CNN
+F 2 "" H 2250 4700 50  0001 C CNN
+F 3 "" H 2250 4700 50  0001 C CNN
+	1    2250 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 4700 2250 4700
+$Comp
+L Device:R R5
+U 1 1 6139EC57
+P 2500 5500
+AR Path="/6136097D/6139EC57" Ref="R5"  Part="1" 
+AR Path="/613FD16E/6139EC57" Ref="R11"  Part="1" 
+AR Path="/613FD1B8/6139EC57" Ref="R17"  Part="1" 
+AR Path="/6140D7B4/6139EC57" Ref="R11"  Part="1" 
+AR Path="/6140D7EF/6139EC57" Ref="R17"  Part="1" 
+AR Path="/614119F8/6139EC57" Ref="R11"  Part="1" 
+AR Path="/61411A34/6139EC57" Ref="R17"  Part="1" 
+F 0 "R11" V 2500 5500 50  0000 C CNN
+F 1 "R" V 2384 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 5500 50  0001 C CNN
+F 3 "~" H 2500 5500 50  0001 C CNN
+	1    2500 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 5500 2900 5500
+$Comp
+L power:VCC #PWR0105
+U 1 1 6139EC5F
+P 2250 5500
+AR Path="/6136097D/6139EC5F" Ref="#PWR0105"  Part="1" 
+AR Path="/613FD16E/6139EC5F" Ref="#PWR0115"  Part="1" 
+AR Path="/613FD1B8/6139EC5F" Ref="#PWR0127"  Part="1" 
+AR Path="/6140D7B4/6139EC5F" Ref="#PWR0115"  Part="1" 
+AR Path="/6140D7EF/6139EC5F" Ref="#PWR0127"  Part="1" 
+AR Path="/614119F8/6139EC5F" Ref="#PWR0115"  Part="1" 
+AR Path="/61411A34/6139EC5F" Ref="#PWR0127"  Part="1" 
+F 0 "#PWR0127" H 2250 5350 50  0001 C CNN
+F 1 "VCC" V 2268 5627 50  0000 L CNN
+F 2 "" H 2250 5500 50  0001 C CNN
+F 3 "" H 2250 5500 50  0001 C CNN
+	1    2250 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 5500 2250 5500
+$Comp
+L Device:R R6
+U 1 1 613A077D
+P 2500 6300
+AR Path="/6136097D/613A077D" Ref="R6"  Part="1" 
+AR Path="/613FD16E/613A077D" Ref="R12"  Part="1" 
+AR Path="/613FD1B8/613A077D" Ref="R18"  Part="1" 
+AR Path="/6140D7B4/613A077D" Ref="R12"  Part="1" 
+AR Path="/6140D7EF/613A077D" Ref="R18"  Part="1" 
+AR Path="/614119F8/613A077D" Ref="R12"  Part="1" 
+AR Path="/61411A34/613A077D" Ref="R18"  Part="1" 
+F 0 "R12" V 2500 6300 50  0000 C CNN
+F 1 "R" V 2384 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2430 6300 50  0001 C CNN
+F 3 "~" H 2500 6300 50  0001 C CNN
+	1    2500 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 6300 2900 6300
+$Comp
+L power:VCC #PWR0106
+U 1 1 613A0785
+P 2250 6300
+AR Path="/6136097D/613A0785" Ref="#PWR0106"  Part="1" 
+AR Path="/613FD16E/613A0785" Ref="#PWR0116"  Part="1" 
+AR Path="/613FD1B8/613A0785" Ref="#PWR0128"  Part="1" 
+AR Path="/6140D7B4/613A0785" Ref="#PWR0116"  Part="1" 
+AR Path="/6140D7EF/613A0785" Ref="#PWR0128"  Part="1" 
+AR Path="/614119F8/613A0785" Ref="#PWR0116"  Part="1" 
+AR Path="/61411A34/613A0785" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 2250 6150 50  0001 C CNN
+F 1 "VCC" V 2268 6427 50  0000 L CNN
+F 2 "" H 2250 6300 50  0001 C CNN
+F 3 "" H 2250 6300 50  0001 C CNN
+	1    2250 6300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 6300 2250 6300
+Wire Wire Line
+	2900 6650 2900 6300
+Connection ~ 2900 6650
+Wire Wire Line
+	2900 6650 3100 6650
+Wire Wire Line
+	2900 5850 2900 5500
+Connection ~ 2900 5850
+Wire Wire Line
+	2900 5850 3050 5850
+$Comp
+L power:VCC #PWR03
+U 1 1 613B7B18
+P 1150 5150
+AR Path="/6136097D/613B7B18" Ref="#PWR03"  Part="1" 
+AR Path="/613FD16E/613B7B18" Ref="#PWR0117"  Part="1" 
+AR Path="/613FD1B8/613B7B18" Ref="#PWR0129"  Part="1" 
+AR Path="/6140D7B4/613B7B18" Ref="#PWR0117"  Part="1" 
+AR Path="/6140D7EF/613B7B18" Ref="#PWR0129"  Part="1" 
+AR Path="/614119F8/613B7B18" Ref="#PWR0117"  Part="1" 
+AR Path="/61411A34/613B7B18" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 1150 5000 50  0001 C CNN
+F 1 "VCC" V 1168 5277 50  0000 L CNN
+F 2 "" H 1150 5150 50  0001 C CNN
+F 3 "" H 1150 5150 50  0001 C CNN
+	1    1150 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 613B9AE6
+P 1150 5450
+AR Path="/6136097D/613B9AE6" Ref="C2"  Part="1" 
+AR Path="/613FD16E/613B9AE6" Ref="C3"  Part="1" 
+AR Path="/613FD1B8/613B9AE6" Ref="C5"  Part="1" 
+AR Path="/6140D7B4/613B9AE6" Ref="C3"  Part="1" 
+AR Path="/6140D7EF/613B9AE6" Ref="C5"  Part="1" 
+AR Path="/614119F8/613B9AE6" Ref="C3"  Part="1" 
+AR Path="/61411A34/613B9AE6" Ref="C5"  Part="1" 
+F 0 "C3" H 1265 5496 50  0000 L CNN
+F 1 "C" H 1265 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1188 5300 50  0001 C CNN
+F 3 "~" H 1150 5450 50  0001 C CNN
+	1    1150 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5300 1150 5150
+$Comp
+L power:GND #PWR04
+U 1 1 613BD605
+P 1150 5650
+AR Path="/6136097D/613BD605" Ref="#PWR04"  Part="1" 
+AR Path="/613FD16E/613BD605" Ref="#PWR0118"  Part="1" 
+AR Path="/613FD1B8/613BD605" Ref="#PWR0130"  Part="1" 
+AR Path="/6140D7B4/613BD605" Ref="#PWR0118"  Part="1" 
+AR Path="/6140D7EF/613BD605" Ref="#PWR0130"  Part="1" 
+AR Path="/614119F8/613BD605" Ref="#PWR0118"  Part="1" 
+AR Path="/61411A34/613BD605" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 1150 5400 50  0001 C CNN
+F 1 "GND" H 1155 5477 50  0000 C CNN
+F 2 "" H 1150 5650 50  0001 C CNN
+F 3 "" H 1150 5650 50  0001 C CNN
+	1    1150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 5600 1150 5650
+Wire Wire Line
+	3100 5800 3100 6650
+Wire Wire Line
+	3100 5800 3300 5800
+Wire Wire Line
+	3150 5050 3150 6000
+Wire Wire Line
+	3150 6000 3300 6000
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 613D9F7C
+P 2200 3250
+AR Path="/6136097D/613D9F7C" Ref="J4"  Part="1" 
+AR Path="/613FD16E/613D9F7C" Ref="J8"  Part="1" 
+AR Path="/613FD1B8/613D9F7C" Ref="J12"  Part="1" 
+AR Path="/6140D7B4/613D9F7C" Ref="J8"  Part="1" 
+AR Path="/6140D7EF/613D9F7C" Ref="J12"  Part="1" 
+AR Path="/614119F8/613D9F7C" Ref="J8"  Part="1" 
+AR Path="/61411A34/613D9F7C" Ref="J12"  Part="1" 
+F 0 "J8" H 2308 3531 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2308 3440 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2200 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2850 3450 2850 3550
+Wire Wire Line
+	2400 3350 2600 3350
+Wire Wire Line
+	2600 3350 2600 3550
+Wire Wire Line
+	2600 3550 2850 3550
+Connection ~ 2850 3550
+Wire Wire Line
+	2850 3550 2850 3600
+Wire Wire Line
+	2400 3150 2400 2800
+$Comp
+L power:VCC #PWR0107
+U 1 1 613DEFAB
+P 2400 2800
+AR Path="/6136097D/613DEFAB" Ref="#PWR0107"  Part="1" 
+AR Path="/613FD16E/613DEFAB" Ref="#PWR0119"  Part="1" 
+AR Path="/613FD1B8/613DEFAB" Ref="#PWR0131"  Part="1" 
+AR Path="/6140D7B4/613DEFAB" Ref="#PWR0119"  Part="1" 
+AR Path="/6140D7EF/613DEFAB" Ref="#PWR0131"  Part="1" 
+AR Path="/614119F8/613DEFAB" Ref="#PWR0119"  Part="1" 
+AR Path="/61411A34/613DEFAB" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 2400 2650 50  0001 C CNN
+F 1 "VCC" V 2418 2927 50  0000 L CNN
+F 2 "" H 2400 2800 50  0001 C CNN
+F 3 "" H 2400 2800 50  0001 C CNN
+	1    2400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 3250 2600 3250
+Wire Wire Line
+	2600 3250 2600 3000
+Wire Wire Line
+	2600 3000 2850 3000
+Connection ~ 2850 3000
+$Comp
+L power:VPP #PWR0108
+U 1 1 613FA7FF
+P 2850 2800
+AR Path="/6136097D/613FA7FF" Ref="#PWR0108"  Part="1" 
+AR Path="/613FD16E/613FA7FF" Ref="#PWR0120"  Part="1" 
+AR Path="/613FD1B8/613FA7FF" Ref="#PWR0132"  Part="1" 
+AR Path="/6140D7B4/613FA7FF" Ref="#PWR0120"  Part="1" 
+AR Path="/6140D7EF/613FA7FF" Ref="#PWR0132"  Part="1" 
+AR Path="/614119F8/613FA7FF" Ref="#PWR0120"  Part="1" 
+AR Path="/61411A34/613FA7FF" Ref="#PWR0132"  Part="1" 
+F 0 "#PWR0132" H 2850 2650 50  0001 C CNN
+F 1 "VPP" H 2865 2973 50  0000 C CNN
+F 2 "" H 2850 2800 50  0001 C CNN
+F 3 "" H 2850 2800 50  0001 C CNN
+	1    2850 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 2800 2850 3000
+$EndSCHEMATC

@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -482,4 +482,30 @@ Wire Wire Line
 	2650 1700 2450 1700
 Wire Wire Line
 	2450 2050 2650 2050
+$Sheet
+S 6100 1950 1350 950 
+U 613B0780
+F0 "pos_reg_B" 50
+F1 "pos_reg_section.sch" 50
+F2 "Vin" I L 6100 2250 50 
+F3 "Vout" I R 7450 2250 50 
+F4 "GND" I L 6100 2600 50 
+F5 "Vadj" I R 7450 2600 50 
+$EndSheet
+Text Label 5900 2250 2    50   ~ 0
+VinA
+Text Label 5900 2600 2    50   ~ 0
+GNDA
+Text Label 7650 2250 0    50   ~ 0
+VoutA
+Text Label 7650 2600 0    50   ~ 0
+VadjA
+Wire Wire Line
+	7650 2600 7450 2600
+Wire Wire Line
+	7450 2250 7650 2250
+Wire Wire Line
+	6100 2250 5900 2250
+Wire Wire Line
+	5900 2600 6100 2600
 $EndSCHEMATC

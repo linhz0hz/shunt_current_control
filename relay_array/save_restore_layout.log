@@ -1,0 +1,22 @@
+09-06 10:43:47 save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'win32'
+09-06 10:43:47 save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
+09-06 10:43:47 save_restore_layout.action_save_restore_layout 162:KiCad build version: Unknown
+09-06 10:43:47 save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
+09-06 10:43:48 save_restore_layout.action_save_restore_layout 274:Restore layout chosen
+09-06 10:43:49 save_restore_layout.save_restore_layout 393:Getting board info
+09-06 10:43:49 save_restore_layout.save_restore_layout 395:Getting schematics info
+09-06 10:43:49 save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
+09-06 10:43:49 save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
+{u'6136097D': [u'relay1', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\relay_array\\relay_channel.sch']}
+09-06 10:43:49 save_restore_layout.save_restore_layout 397:Getting layout info
+09-06 10:43:49 save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
+09-06 10:43:49 save_restore_layout.save_restore_layout 399:Updating layout info with schematics info
+09-06 10:43:49 save_restore_layout.action_save_restore_layout 290:Fatal error when creating an instance of RestoreLayout
+Traceback (most recent call last):
+  File "F:\Program Files\KiCad\share\kicad\scripting\plugins/save_restore_layout/action_save_restore_layout.py", line 288, in Run
+    restore_layout = save_restore_layout.RestoreLayout(board)
+  File "F:\Program Files\KiCad\share\kicad\scripting\plugins/save_restore_layout/save_restore_layout.py", line 400, in __init__
+    self.layout.set_modules_hierarchy_names(self.schematics.dict_of_sheets)
+  File "F:\Program Files\KiCad\share\kicad\scripting\plugins/save_restore_layout/save_restore_layout.py", line 250, in set_modules_hierarchy_names
+    mod.sheetname = [dict_of_sheets[x][0] for x in mod.sheet_id]
+KeyError: u'61411A34'
