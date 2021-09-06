@@ -1,0 +1,25 @@
+09-05 23:07:16 replicate_layout.action_replicate_layout 313:Plugin executed on: 'win32'
+09-05 23:07:16 replicate_layout.action_replicate_layout 314:Plugin executed with python version: '2.7.15 (default, Oct 11 2018, 12:09:51)  [GCC 8.2.0 64 bit (AMD64)]'
+09-05 23:07:16 replicate_layout.action_replicate_layout 315:KiCad build version: Unknown
+09-05 23:07:16 replicate_layout.action_replicate_layout 316:Replicate layout plugin version: 74 started
+09-05 23:07:16 replicate_layout.action_replicate_layout 329:All top level windows titles are:
+kicad (5.1.4)-1 d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker\ground_loop_breaker.pro
+
+eeschema — isolated_dcdc_module.sch [/power_module_a/] — d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker
+
+pcbnew — d:\engsci\ultracold\kicad\shunt_current_control_v2\ground_loop_breaker\ground_loop_breaker.kicad_pcb
+
+
+09-05 23:07:16 replicate_layout.action_replicate_layout 330:All top level windows objects are:
+ <wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x32eea20> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x2e9ca30> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x7b2e260> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x91f1c00> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x91c7c40> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1d2a3750> >
+<wx._windows.Frame; proxy of <Swig Object of type 'wxFrame *' at 0x1d2a4bf0> >
+09-05 23:07:16 replicate_layout.action_replicate_layout 353:Preparing replicator with J1 as a reference
+09-05 23:07:16 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+09-05 23:07:16 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'61359581': [u'power_module_A', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module.sch'], u'613A5306': [u'power_module_D', u'D:\\EngSci\\UltraCold\\KiCad\\shunt_current_control_v2\\ground_loop_breaker\\isolated_dcdc_module_small.sch']}
+09-05 23:07:16 replicate_layout.replicatelayout 225:getting a list of all footprints on board
